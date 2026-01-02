@@ -22,3 +22,9 @@ Welcome!
 
 My area of interests include **Local Governance**, **Informal Economy** and **agrarian political economy**. 
 
+<div class="cv-download">
+  <a href="/assets/pdf/CV.pdf" class="btn btn-outline-primary btn-sm" target="_blank" role="button">
+    <i class="fas fa-file-pdf"></i> Download CV
+  </a>
+</div>
+
