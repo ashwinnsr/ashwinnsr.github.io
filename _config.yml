@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Ashwin Sereekumar
+title: Ashwin Sreekumar
 first_name: Ashwin
 middle_name: 
-last_name: Sereekumar
-email: ashwinsereekumar@gmail.com
+last_name: Sreekumar
+email: ashwinn489@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Master's Student at CHRIST (Deemed to be University), Bangalore, India.
 footer_text: >
@@ -114,7 +114,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Thoughts  # blog_name will be displayed in your blog page
-blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: Thoughts # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -238,7 +238,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Sereekumar]
+  last_name: [Sreekumar]
   first_name: [Ashwin]
 
   style: apa
