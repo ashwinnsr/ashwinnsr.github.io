@@ -5,7 +5,7 @@ title: Research
 align: center
 description: 
 years: [2023,2022,2019]
-nav: true
+nav: false
 nav_order: 1
 ---
 

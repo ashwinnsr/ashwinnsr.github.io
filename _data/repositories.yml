@@ -1,7 +1,8 @@
-github_users:
-
-
+# GitHub repositories to display
 github_repos:
-  - advaitmoharir/google_mob
-  - advaitmoharir/hces_2022
-  - advaitmoharir/ASUSE
+  - "Batutafaa/agricultural-market-discrimination"
+  - "Batutafaa/IIHDS_Project"
+
+# GitHub users whose stats to display
+github_users:
+  - "Batutafaa"
