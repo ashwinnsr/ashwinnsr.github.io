@@ -13,3 +13,9 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+/* Hide blog description and tag list */
+.header-bar h2,
+.tag-category-list {
+  display: none !important;
+}
