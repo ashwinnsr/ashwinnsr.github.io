@@ -2,29 +2,13 @@
 layout: page
 permalink: /repositories/
 title: Research Projects
-description: A showcase of my research projects in public policy, data analysis, and social sciences. Each project includes code, analysis, and detailed documentation.
+description: My research projects in public policy, data analysis, and social sciences. Each project includes code, analysis, and detailed documentation.
 nav: true
 nav_order: 3
 ---
 
 
-{% if site.data.repositories.github_users %}
-### GitHub Profile
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center mb-5">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
 
-{% if site.repo_trophies.enabled %}
-### GitHub Achievements
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center mb-5">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_trophies.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
 
 {% if site.data.repositories.github_repos %}
 ### Project Details
@@ -45,4 +29,3 @@ nav_order: 3
 
 ---
 
-*Note: All projects are open-source and available on GitHub. Each repository contains complete code, data documentation, and analysis methodology.*
