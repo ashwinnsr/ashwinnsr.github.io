@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Reified World of Uncut Gems: Anxieties of Speculative Capitalism"
-author: "Ashwin Sreekumar"
+author: 
 date: 2024-01-08
 categories: [Film, Sociology, Economics, Critical Theory]
 
