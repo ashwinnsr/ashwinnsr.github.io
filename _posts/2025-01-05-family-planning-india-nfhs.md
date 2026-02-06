@@ -2,7 +2,7 @@
 layout: post
 title: "Family Planning in India: Challenges and Insights from NFHS-4 and NFHS-5"
 date: 2025-01-05
-author: Ashwin Sreekumar Nair
+author:
 categories: [NFHS, Rural Development, Health Policy]
 
 comments: true
@@ -44,7 +44,7 @@ These nutritional deficits have long-term consequences. Stunted children frequen
         <th colspan="2" class="text-center">NFHS-5 (%)</th>
       </tr>
       <tr>
-        <th></th>
+        <th>Current Use of Family Planning Methods (currently married women age 15–49 years)</th>
         <th>Urban</th>
         <th>Rural</th>
         <th>Urban</th>
@@ -170,10 +170,13 @@ Additionally, the limited accessibility and affordability of modern temporary co
 Uttar Pradesh has 35 districts notified as industrially and socio-economically backward. The University Grants Commission has identified 55 out of the existing 70 districts of Uttar Pradesh as backward which are below the national average in total literacy based on the 2001 census. 
 
 
-<figure>
-  <img src="/assets/img/NFHSgraphs/backward-districts-map.png" alt="Map showing socio-economically backward districts in Uttar Pradesh" class="img-fluid rounded">
-  <figcaption class="mt-2 text-center"><strong></strong> Distribution of socio-economically backward districts in Uttar Pradesh, highlighting regions requiring targeted family planning interventions.</figcaption>
+<figure class="text-center">
+  <img src="/assets/img/NFHSgraphs/backward-districts-map.png" alt="Map showing socio-economically backward districts in Uttar Pradesh" class="img-fluid rounded d-block mx-auto">
+  <figcaption class="mt-2 text-center">
+    Distribution of socio-economically backward districts in Uttar Pradesh, highlighting regions requiring targeted family planning interventions.
+  </figcaption>
 </figure>
+
 
 Even with huge rural backwardness NFHS-5 data doesn’t show much rural-urban divide between the usage of condoms, pills, IUD/PPIUD (%) and injectables or any other modern methods as can be seen in Figure 1.
 
