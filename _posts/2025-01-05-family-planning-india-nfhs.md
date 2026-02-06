@@ -3,10 +3,11 @@ layout: post
 title: "Family Planning in India: Challenges and Insights from NFHS-4 and NFHS-5"
 date: 2025-01-05
 author: Ashwin Sreekumar Nair
-categories: [Public Policy, Rural Development, Health Policy]
+categories: [NFHS, Rural Development, Health Policy]
 
 comments: true
 math: true  
+description: "An analysis of family planning trends in India using NFHS-4 and NFHS-5 data, with a focus on Uttar Pradesh's challenges and policy implications."
 ---
 
 ## Introduction
