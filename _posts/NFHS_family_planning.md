@@ -159,7 +159,7 @@ The demand for family planning among married women aged 15–49 years has increa
 Female sterilization remains the predominant contraceptive method in contemporary India, with its adoption significantly influenced by women's religious background, educational attainment, and occupational status(Jain, 2011; de Oliveira IT et al, 2014). The prevalence of this permanent contraceptive method is further perpetuated by informational deficits and misconceptions regarding temporary contraceptive alternatives.
 
 <figure class="text-center">
-  <img src="/assets/img/blog/family-planning-india/female-sterilization-map.png" alt="Map of female sterilization distribution in Uttar Pradesh" class="img-fluid" style="max-width: 90%;">
+  <img src="/assets/img/NFHSgraphs/female-sterilization-map.png" alt="Map of female sterilization distribution in Uttar Pradesh" class="img-fluid" style="max-width: 90%;">
   <figcaption class="mt-2"><strong>Figure 1:</strong> Comparison of female sterilization percentage and its distribution across districts in Uttar Pradesh (NFHS-5). The map reveals significant inter-district variation, with some districts showing rates as high as 25% while others remain below 10%.</figcaption>
 </figure>
 
@@ -172,14 +172,14 @@ Uttar Pradesh has 35 districts notified as industrially and socio-economically b
 
 
 <figure>
-  <img src="/assets/img/blog/family-planning-india/backward-districts-map.png" alt="Map showing socio-economically backward districts in Uttar Pradesh" class="img-fluid rounded">
+  <img src="/assets/img/NFHSgraphs/backward-districts-map.png" alt="Map showing socio-economically backward districts in Uttar Pradesh" class="img-fluid rounded">
   <figcaption class="mt-2 text-center"><strong></strong> Distribution of socio-economically backward districts in Uttar Pradesh, highlighting regions requiring targeted family planning interventions.</figcaption>
 </figure>
 
 Even with huge rural backwardness NFHS-5 data doesn’t show much rural-urban divide between the usage of condoms, pills, IUD/PPIUD (%) and injectables or any other modern methods as can be seen in Figure 1.
 
 <figure class="text-center">
-  <img src="/assets/img/blog/family-planning-india/condom-trend.png" alt="Comparison of usage of condoms as contraceptives" class="img-fluid" style="max-width: 95%;">
+  <img src="/assets/img/NFHSgraphs/condom-trend.png" alt="Comparison of usage of condoms as contraceptives" class="img-fluid" style="max-width: 95%;">
   <figcaption><strong>Figure 2:</strong> Modern contraceptive methods usage across districts in Uttar Pradesh showing increasing adoption of temporary methods alongside persistent reliance on sterilization.</figcaption>
 </figure>
 
@@ -187,7 +187,7 @@ Modern methods used other than the ones mentioned have increased all over in mul
 
 
 <figure class="text-center">
-  <img src="/assets/img/blog/family-planning-india/modern-methods-trend.png" alt="Comparison of any modern methods other than the ones mentioned in datasheet" class="img-fluid" style="max-width: 95%;">
+  <img src="/assets/img/NFHSgraphs/modern-methods-trend.png" alt="Comparison of any modern methods other than the ones mentioned in datasheet" class="img-fluid" style="max-width: 95%;">
   <figcaption><strong>Figure 3:</strong> Modern contraceptive methods usage across districts in Uttar Pradesh showing increasing adoption of temporary methods alongside persistent reliance on sterilization.</figcaption>
 </figure>
 
