@@ -6,7 +6,7 @@ author: Ashwin Sreekumar Nair
 categories: [Public Policy, Rural Development, Health Policy]
 
 comments: true
-math: true  # If you want to use LaTeX math in your post
+math: true  
 ---
 
 ## Introduction
