@@ -296,7 +296,7 @@ The lack of geographic pattern suggests Dalit disadvantage operates **within** d
 **Table 6: District Fixed Effects Test (Preliminary Results)**
 
 | Group vs. Brahmins | State FE Coefficient | Expected District FE | Mechanism |
-|--------------------|---------------------|---------------------|-----------|
+|--------------------|------------------------|------------------------|---------------|
 | Muslims | -0.081** | +0.001 (confirmed) | **Geographic sorting** |
 | Adivasis | +0.578*** | +0.4-0.5 (predicted) | **Preference/necessity** |
 | Dalits | +0.253*** | +0.1-0.2 (predicted) | **Within-district discrimination** |
@@ -330,7 +330,7 @@ Why are Dalits everywhere but still disadvantaged?
 **Table 7: The Three Patterns of Marginalization**
 
 | Feature | **Muslims** | **Adivasis (ST)** | **Dalits (SC)** |
-|---------|------------|------------------|----------------|
+|---------|------------------|----------------------------|-------------------------|
 | **Sample Size** | 27,341 | 17,380 | 43,137 |
 | **Employment Rate** | 35.5% (Lowest) | 53.3% (Highest) | 45.5% (Middle) |
 | **Geographic Correlation** | -0.305*** | +0.378*** | +0.081 (n.s.) |
@@ -409,7 +409,7 @@ India's primary policies for marginalized communities:
 **Table 8: Targeted Policy Matrix**
 
 | Group | Primary Problem | Ineffective Policy | Effective Policy | Rationale |
-|-------|----------------|-------------------|------------------|-----------|
+|-------|----------------|-------------------------------|----------------------------------|--------------------|
 | **Muslims** | Job scarcity in their regions | Employment quotas | • Special Economic Zones in UP/Bihar/Kerala<br>• Infrastructure investment in Muslim-concentrated districts<br>• Migration support to high-employment regions | Can't reserve jobs that don't exist; need to create jobs WHERE Muslims live |
 | **Adivasis** | Low-productivity subsistence work | Employment quotas | • MGNREGA wage increases<br>• Forest rights & cooperatives<br>• Skill training for formal sector<br>• Agricultural productivity enhancement | They already work; need BETTER jobs, not MORE jobs |
 | **Dalits** | Within-district discrimination | Place-based development | • Strict enforcement of anti-discrimination laws<br>• Reservations in private sector<br>• Urban migration support<br>• Education quality improvement | Discrimination happens everywhere; need access/mobility |
@@ -505,8 +505,8 @@ India's primary policies for marginalized communities:
 
 MGNREGA provides 100 days of guaranteed wage employment per household. How does it affect our three groups?
 
-| Group | MGNREGA Impact | Reason |
-|-------|---------------|--------|
+| Group | MGNREGA Impact | Reason                                                          |
+|-------|---------------|------------------------------------------------------------------|
 | **Muslims** | **Low** | Jobs are in rural areas; Muslims concentrated in urban/semi-urban enclaves with little agricultural work |
 | **Adivasis** | **Medium** | Already working; MGNREGA provides additional income but doesn't shift to higher productivity |
 | **Dalits** | **High** | Distributed across rural areas; MGNREGA provides work where discrimination may block private employment |
@@ -515,8 +515,8 @@ MGNREGA provides 100 days of guaranteed wage employment per household. How does 
 
 **Another example: Reservations in Government Jobs**
 
-| Group | Reservation Impact | Reason |
-|-------|-------------------|--------|
+| Group | Reservation Impact | Reason                                                   |
+|-------|-------------------|-----------------------------------------------------------|
 | **Muslims** | **Low** | No reservations for Muslims (except in a few states); but more importantly, government hiring doesn't create jobs in Muslim-concentrated low-employment districts |
 | **Adivasis** | **Medium** | 7.5% reservation helps the educated minority, but 70% of Adivasis are in subsistence agriculture without access to formal sector |
 | **Dalits** | **High** | 15% reservation directly addresses discrimination in hiring; government jobs are geographically distributed |
@@ -615,31 +615,8 @@ Current policies treat all disadvantage as equivalent, offering the same toolkit
 - **Waste resources** on groups where the policy doesn't address the binding constraint (e.g., employment guarantees for Adivasis who already work)
 - **Create resentment** among non-targeted groups who see "fairness" violated without seeing outcomes improve
 
-### **9.3 Implications Beyond India**
 
-The broader lesson extends beyond India's specific context. Around the world, marginalized groups often face different barriers that require different solutions:
 
-- **African Americans in the United States**: Geographic concentration in deindustrialized cities (similar to Indian Muslims) suggests place-based policies may be more effective than purely race-based affirmative action.
-
-- **Roma in Europe**: Distributed across many countries but facing discrimination within each (similar to Indian Dalits) suggests pan-European anti-discrimination enforcement is needed.
-
-- **Indigenous peoples globally**: Often concentrated in remote areas with limited economic opportunity (similar to Indian Adivasis) suggests connectivity and productivity enhancement matter more than employment creation.
-
-**The meta-lesson:** Understanding the **mechanism** of disadvantage—geographic, cultural, or discriminatory—is essential before prescribing solutions.
-
-### **9.4 Future Research Directions**
-
-This paper opens several avenues for future investigation:
-
-1. **Historical analysis**: When did these geographic patterns emerge? Can we trace Muslim concentration in low-employment districts back to Partition (1947) or earlier?
-
-2. **Earnings and income**: We've focused on employment, but what about wage gaps? Do Adivasis earn less per hour even when employed?
-
-3. **Intergenerational mobility**: Are children escaping these geographic traps? Do second-generation Muslims in cities fare better?
-
-4. **Policy experiments**: Natural experiments (e.g., Special Economic Zones in Muslim-concentrated districts) could test our policy recommendations.
-
-5. **Comparative international**: Do Muslims in other South Asian countries (Bangladesh, Pakistan) show similar geographic patterns?
 
 ### **9.5 A Final Reflection on Data and Evidence**
 
@@ -733,18 +710,3 @@ District Employment Rate = α + γ(% Muslim in District) + ε
 ```
 
 Standard errors clustered at PSU level in all specifications.
-
----
-
-**Word Count: ~8,500 words**
-
-This draft presents your empirical findings in a flowing narrative that:
-1. Starts with the puzzle (why different employment patterns?)
-2. Introduces the geographic hypothesis
-3. Presents each group's pattern with data
-4. Explains mechanisms with historical context
-5. Derives policy implications from the evidence
-6. Validates findings through robustness and comparison
-7. Concludes with broader lessons
-
-The structure moves from description → analysis → policy while keeping the data front and center but explained accessibly.
