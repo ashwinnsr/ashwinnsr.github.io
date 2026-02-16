@@ -1,5 +1,16 @@
-The Pseudo-State within the Nation-State:
-Politics of Khap Panchayats
+---
+layout: post
+title: "The Pseudo-State and Politics of Khap Panchayats"
+date: 2025-01-05
+author:
+categories: 
+
+comments: true
+math: true  
+description: "How do Khap Panchayats operate and maintain influence in India"
+---
+
+
 
 
 By Ashwin Sreekumar

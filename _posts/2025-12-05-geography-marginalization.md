@@ -3,7 +3,7 @@ layout: post
 title: "The Hidden Geography of Inequality: Why India's Marginalized Groups Need Different Solutions"
 date: 2025-12-05
 author:
-categories: [Employment, Rural Development, Job Discrimination]
+categories:
 
 comments: true
 math: true  

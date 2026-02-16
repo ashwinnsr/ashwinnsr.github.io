@@ -3,8 +3,6 @@ layout: post
 title: "The Reified World of Uncut Gems: Anxieties of Speculative Capitalism"
 author: 
 date: 2024-01-08
-categories: [Film, Sociology, Economics, Critical Theory]
-
 description: "A critical analysis of the Safdie brothers' Uncut Gems as a cinematic reflection of speculative capitalism and the reified world of high-stakes gambling."
 featured: false
 comments: true

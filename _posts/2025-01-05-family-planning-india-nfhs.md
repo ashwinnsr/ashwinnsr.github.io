@@ -3,7 +3,7 @@ layout: post
 title: "Family Planning in India: Challenges and Insights from NFHS-4 and NFHS-5"
 date: 2025-01-05
 author:
-categories: [NFHS, Rural Development, Health Policy]
+categories: 
 
 comments: true
 math: true  
