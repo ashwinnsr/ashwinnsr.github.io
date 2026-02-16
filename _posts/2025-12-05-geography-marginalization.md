@@ -7,7 +7,7 @@ categories: [Employment, Rural Development, Job Discrimination]
 
 comments: true
 math: true  
-description: "An analysis of family planning trends in India using NFHS-4 and NFHS-5 data, with a focus on Uttar Pradesh's challenges and policy implications."
+description: "An analysis of IHDS-II data to understand the effect of social identity on employment."
 ---
 
 
