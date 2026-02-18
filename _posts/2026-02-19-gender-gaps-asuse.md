@@ -2,8 +2,12 @@
 layout: post
 title: "The Invisible Workshop: Unveiling Gender Gaps in India's Unincorporated Sector"
 date: 2026-02-19
-author: Ashwin
-tags: [India, Economics, Gender, Data Science, ASUSE]
+author: 
+tags: 
+
+comments: true
+math: true  
+description: "An analysis of ASUSE 2023-24 data to understand the role of women in India's unincorporated sector enterprises."
 ---
 
 India's unincorporated sector is the backbone of its economy, providing livelihoods to millions. However, a closer look at the latest **Annual Survey of Unincorporated Sector Enterprises (ASUSE) 2023-24** reveals a stark reality: the entrepreneurial journey for women is fundamentally different—and significantly more constrained—than for men.
