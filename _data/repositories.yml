@@ -1,8 +1,11 @@
 # GitHub repositories to display
 github_repos:
-  - "Batutafaaa/agricultural-market-discrimination"
-  - "Batutafaaa/IIHDS_Project"
+  - "ashwinnsr/agricultural-market-discrimination"
+  - "ashwinnsr/IIHDS_Project"
 
 # GitHub users whose stats to display
 github_users:
-  - "Batutafaaa"
+  - "ashwinnsr"
+
+
+
