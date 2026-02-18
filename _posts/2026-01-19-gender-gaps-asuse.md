@@ -55,4 +55,3 @@ The data from ASUSE 2023-24 tells a clear story: women entrepreneurs in India ar
 Closing these gaps isn't just about equity—it's about unlocking the economic potential of half the country's population.
 
 ---
-*Methodology: This analysis uses survey-weighted estimates from the ASUSE 2023-24 dataset, ensuring national representativeness. Results were processed using R and the `srvyr` package.*
