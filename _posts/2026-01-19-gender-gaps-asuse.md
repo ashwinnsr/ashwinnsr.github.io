@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Invisible Workshop: Unveiling Gender Gaps in India's Unincorporated Sector"
-date: 2026-02-19
+date: 2026-01-19
 author: 
 tags: 
 
