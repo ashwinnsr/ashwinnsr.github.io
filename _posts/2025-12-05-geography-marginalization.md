@@ -33,7 +33,7 @@ This isn't limited to Kerala. Eastern Uttar Pradesh tells the same story. Distri
 
 ### The Smoking Gun: What Happens Within Districts
 
-Here's where the analysis becomes definitive. When we compared Muslims and Brahmins living in different states, Muslims showed 8.1% lower odds of employment (p = 0.015)—a significant disadvantage. But when we compared Muslims and Brahmins living in the *same district*, this disadvantage completely vanished. The coefficient became +0.001 with a p-value of 0.842, meaning there's essentially no difference at all.
+Here's where the analysis becomes definitive. When we compared Muslims and Brahmins living in different states, Muslims showed 7.7% lower odds of employment (OR = 0.923, p = 0.015)—a significant disadvantage. But when we compared Muslims and Brahmins living in the *same district*, this disadvantage completely vanished. The coefficient became +0.001 with a p-value of 0.842, meaning there's essentially no difference at all.
 
 This district fixed effects test proves that the Muslim employment gap is 100% geographic. It's not that Muslims can't find jobs when competing with Hindus in the same labor market. It's that Muslims are concentrated in places where nobody—Muslim or Hindu—can find adequate employment. The problem isn't discrimination in hiring; it's the absence of jobs in Muslim-concentrated regions.
 
@@ -47,9 +47,9 @@ Third, the traditional Muslim economic base collapsed. Cities like Moradabad (fa
 
 ### The Quality Problem Compounds the Quantity Problem
 
-Among Muslims who do find work, the situation remains difficult. Our employment quality analysis shows that 77.6% of working Muslims have casual employment—daily wage work with no security, no advance notice, and no benefits. Only 18.1% have permanent contracts. Their mean annual earnings are ₹51,667, which is 44% less than Forward castes' ₹92,354. Even after controlling for education, age, gender, and location, Muslims earn 16.6% less per hour worked.
+Among Muslims who do find work, the situation remains difficult. Our employment quality analysis shows that 78.1% of working Muslims have casual employment—daily wage work with no security, no advance notice, and no benefits. Only 17.6% have permanent contracts. Their mean annual earnings are ₹50,567, which is 44.2% less than Forward castes' ₹90,577. Even after controlling for education, age, gender, and location, Muslims earn 19.9% less (p < 0.001).
 
-Interestingly, only 3.2% of Muslims participate in MGNREGA, the rural employment guarantee scheme—nearly identical to Forward castes (3.3%) despite Muslims being much poorer. This confirms their urban and peri-urban concentration, as MGNREGA is primarily a rural program. Muslims need jobs where they live, not rural workfare programs they can't access.
+Interestingly, only 2.1% of Muslims participate in MGNREGA, the rural employment guarantee scheme—even lower than Forward castes (2.4%) despite Muslims having much lower earnings. This confirms their urban and peri-urban concentration, as MGNREGA is primarily a rural program. Muslims need jobs where they live, not rural workfare programs they can't access.
 
 ---
 
@@ -65,11 +65,11 @@ But here's the cruel irony: these high-employment districts are India's poorest 
 
 ### The Quality Crisis: Working More, Earning Less
 
-Adivasis face the worst job quality of any group we studied. A devastating 85.2% work in casual employment—the highest casualization rate of any social group. Only 12% have permanent jobs, compared to 41.4% of Forward castes. This means most Adivasis wake up each day uncertain whether they'll have work, negotiating wages daily with no security whatsoever.
+Adivasis face the worst job quality of any group we studied. A devastating 85.5% work in casual employment—the highest casualization rate of any social group. Only 11.8% have permanent jobs, compared to 40.6% of Forward castes. This means most Adivasis wake up each day uncertain whether they'll have work, negotiating wages daily with no security whatsoever.
 
-The earnings data is even more shocking. Adivasis' mean annual earnings are ₹36,625—a full 60% less than Forward castes. The median is worse: ₹15,000 versus ₹48,000 for Forward castes, a 68% gap. Even after controlling for education, age, gender, and location, Adivasis face a wage penalty of 41.2%—the largest of any group. This means that an Adivasi and a Forward caste person with the same education, working in the same state, will see the Adivasi earn barely half as much.
+The earnings data is even more shocking. Adivasis' mean annual earnings are ₹35,883—a full 60.4% less than Forward castes. The median is worse: ₹15,000 versus ₹48,000 for Forward castes, a 68% gap. Even after controlling for education, age, gender, and location, Adivasis face a wage penalty of 54.6%—the largest of any group. This means that an Adivasi and a Forward caste person with the same education, working in the same state, will see the Adivasi earn barely half as much.
 
-The arithmetic is brutal. Adivasis work more (53.3% employment rate) but earn so little per job that their annual income per person is ₹19,521 (employment rate × mean earnings). Forward castes work less (39.8% employment rate) but earn so much per job that their annual income reaches ₹36,757—nearly double. Forward castes work 25% less but earn 88% more overall.
+The arithmetic is brutal. Adivasis work more (53.3% employment rate) but earn so little per job that their annual income per person is ₹19,125 (employment rate × mean earnings). Forward castes work less (39.8% employment rate) but earn so much per job that their annual income reaches ₹36,049—nearly double. Forward castes work 25% less but earn 88% more overall.
 
 ### Why Adivasis Can't Stop Working
 
@@ -99,7 +99,7 @@ This makes sense historically. Unlike Muslims (who concentrated in Mughal urban 
 
 The lack of geographic pattern suggests Dalit disadvantage operates differently. While we haven't completed the district fixed effects analysis for Dalits yet, we predict it will show that the Dalit employment penalty *shrinks* but *remains* when comparing people in the same district—unlike Muslims, where it disappears entirely. This would indicate that Dalits face actual within-district discrimination in hiring and job access, rather than just being stuck in the wrong places.
 
-Their employment quality metrics confirm ongoing disadvantage. Among working Dalits, 79.5% have casual employment, 16.2% have permanent jobs, and mean earnings are ₹44,314 (52% less than Forward castes). After controlling for education and location, Dalits still earn 26.6% less—a substantial penalty that suggests occupational segregation or discrimination persists. Their MGNREGA participation of 9.7% (second only to Adivasis) indicates that many rely on government workfare when private employment fails.
+Their employment quality metrics confirm ongoing disadvantage. Among working Dalits, 80.1% have casual employment, 15.7% have permanent jobs, and mean earnings are ₹43,294 (52.2% less than Forward castes). After controlling for education and location, Dalits still earn 32.2% less—a substantial penalty that suggests occupational segregation or discrimination persists. Their MGNREGA participation of 6.6% indicates that many rely on government workfare when private employment fails.
 
 ---
 
@@ -159,9 +159,11 @@ This three-way comparison acts as a falsification test. The methodology is sound
 
 Perhaps the most important lesson is that employment rates alone are deeply misleading. Adivasis rank first in employment (53.3%) but last in income. Forward castes rank fifth in employment (39.8%) but first in income. The disconnect occurs because employment without adequate wages produces poverty, not prosperity.
 
-When Adivasis' 53.3% employment rate is multiplied by their ₹36,625 mean earnings, we get ₹19,521 in annual income per person—the lowest of any group. When Forward castes' 39.8% employment rate is multiplied by their ₹92,354 mean earnings, we get ₹36,757—nearly double Adivasis' income despite working 25% less.
+When Adivasis' 53.3% employment rate is multiplied by their ₹35,883 mean earnings, we get ₹19,125 in annual income per person—the lowest of any group. When Forward castes' 39.8% employment rate is multiplied by their ₹90,577 mean earnings, we get ₹36,049—nearly double Adivasis' income despite working 25% less.
 
-This demonstrates that researchers and policymakers must disaggregate employment into at least four components: employment rate (quantity), earnings level (wages), job security (permanent vs. casual), and benefit coverage (formal vs. informal). High employment with low wages and no security—the Adivasi pattern—is actually evidence of distress, not success.
+This demonstrates that researchers and policymakers must disaggregate employment into at least four components: employment rate (quantity), earnings level (wages), job security (permanent vs. casual), and benefit coverage (formal vs. informal). 
+
+Our visualization of earnings distribution (Log Scale) highlights the massive spread within groups, yet the persistent shift to the right for Forward castes remains evident. Similarly, the contract type distribution chart reveals that the "high employment" of Adivasis and Dalits is almost entirely fueled by casual labor, whereas the majority of Forward caste jobs carry the security of permanent contracts. High employment with low wages and no security—the Adivasi pattern—is actually evidence of distress, not success.
 
 ---
 
@@ -183,11 +185,11 @@ Effective policy requires abandoning comfortable assumptions and accepting uncom
 |-----------|---------|----------|--------|
 | **Employment Rate** | 35.5% (Lowest) | 53.3% (Highest) | 45.5% (Middle) |
 | **Geographic Pattern** | Negative (-0.305***) | Positive (+0.378***) | None (0.081 n.s.) |
-| **District FE Result** | Disappears completely | TBD (likely persists) | TBD (likely shrinks but remains) |
-| **Casual Employment** | 77.6% | 85.2% | 79.5% |
-| **Mean Earnings** | ₹51,667 (-44%) | ₹36,625 (-60%) | ₹44,314 (-52%) |
-| **Wage Penalty (Adjusted)** | -16.6% | -41.2% | -26.6% |
-| **MGNREGA Participation** | 3.2% (Urban) | 13.6% (Highest) | 9.7% (Second) |
+| **District FE Result** | Disappears completely | TBD | TBD |
+| **Casual Employment** | 78.1% | 85.5% | 80.1% |
+| **Mean Earnings** | ₹50,567 (-44.2%) | ₹35,883 (-60.4%) | ₹43,294 (-52.2%) |
+| **Wage Penalty (Adjusted)** | -19.9% | -54.6% | -32.2% |
+| **MGNREGA Participation** | 2.1% (Urban) | 9.1% (Highest) | 6.6% (Second) |
 | **Primary Problem** | Job scarcity | Job quality | Access barriers |
 | **Historical Root** | Partition + deindustrialization | Forest reservation + subsistence | Caste occupational segregation |
 | **Policy Lever** | Place-based development | Wage/productivity enhancement | Anti-discrimination enforcement |
