@@ -10,12 +10,19 @@ math: true
 description: "An analysis of ASUSE 2023-24 data to understand the role of women in India's unincorporated sector enterprises."
 ---
 
-India's unincorporated sector is the backbone of its economy, providing livelihoods to millions. However, a closer look at the latest **Annual Survey of Unincorporated Sector Enterprises (ASUSE) 2023-24** reveals a stark reality: the entrepreneurial journey for women is fundamentally different—and significantly more constrained—than for men.
+India's unincorporated sector is the backbone of its economy, providing livelihoods to millions. However, a closer look at the latest **Annual Survey of Unincorporated Sector Enterprises (ASUSE) 2023-24** reveals a stark reality where the entrepreneurial journey for women is fundamentally different and significantly more constrained than for men. 
 
-In this post, we break down seven key data points that illustrate the "Invisible Workshops" where India's women entrepreneurs operate.
+ASUSE survey is devoted exclusively to an integrated survey on economic and operational characteristics of unincorporated non-agricultural enterprises in manufacturing, trade and other services sectors to supplement the corporate sector data. Unincorporated non-agricultural establishments include proprietary and partnership establishments (excluding Limited Liability Partnership (LLP) establishments), any society,trust,association,club or body of individuals  or Co-operatives, Self-Help Groups (SHGs), Non-Profit Institutions (NPI/NPISH), etc which are neither registered under Companies Act, 1956 nor under Companies Act, 2013. It also includes companies not registred under Sections 2m(i) and 2m(ii) of the Factories Act, 1948.
+
+
+The unincorporated sector has shown robust growth, with the number of establishments rising from 6.50 crore in 2022-23 to 7.34 crore in 2023-24, a remarkable 12.84% increase. The number of establishments in the "Other Services" sector recorded a growth of 23.55% followed by a 13% increase witnessed by the manufacturing sector. During the same period, the Gross Value Added (GVA) which is a key indicator of economic performance rose by 16.52% driven by a 26.17% growth in ‘other services’ sector.
+
+
+In this post, we break down seven key data points that illustrate these "invisible Workshops" where India's women entrepreneurs operate.
 
 ## 1. The Invisible Workshop
-For most women in India, the "factory floor" is their own living room. A staggering **75.2%** of women entrepreneurs work from home, compared to just **27%** of men. While home-based work offers flexibility, it often keeps these businesses small, isolated, and "invisible" to formal support systems.
+For most women in India, the "factory floor" is their own living room. A staggering **75.2%** of women entrepreneurs work from home, compared to just **27%** of men. While home-based work offers flexibility, this means businesses are small and "invisible" to formal support systems.
+
 
 <figure class="text-center">
   <img src="/assets/img/Chart1_SurveyAdjusted_InvisibleWorkshop.png" 
@@ -75,7 +82,7 @@ One of the most powerful findings in the data is the "Sisterhood Effect." When w
 
 
 <figure class="text-center">
-  <img src="//assets/img/Chart5_Sisterhood_Effect.png" 
+  <img src="/assets/img/Chart5_Sisterhood_Effect.png" 
        alt="Sisterhood Effect" 
        class="img-fluid" 
        style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">

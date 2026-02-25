@@ -7,71 +7,93 @@ categories:
 
 comments: true
 math: true  
-description: "An analysis of IHDS-II data to understand the effect of social identity on employment."
+description: "An analysis of IHDS-II ( 2011-2012) data to understand the effect of social identity on employment."
 ---
 
 
-## Introduction: Three Groups, Three Different Traps
+## Persistence of Inequality
 
-India's labor market tells a deceptive story. On the surface, employment statistics suggest a simple hierarchy: Adivasis (Scheduled Tribes) have the highest employment rate at 53.3%, followed by Dalits (Scheduled Castes) at 45.5%, while Muslims languish at the bottom with just 35.5% employment. Forward castes fall in the middle at 39.8%. These numbers have shaped decades of policy—but they hide a fundamental truth.
+Inequality in labour market outcomes persists, even in the face of rapid economic growth in India. This project aimed to investigate the type of employment inequality faced by different social groups and how caste and religion shapes employment opportunities and outcomes. Understanding these dynamics is crucial, as employment is a primary determinant of an individual's life chances and overall socio-economic mobility.
 
-Using comprehensive data from 204,568 individuals across 371 districts in India, our analysis reveals that these groups face entirely different barriers to economic prosperity. Muslims are trapped in regions where jobs have disappeared. Adivasis work the most but earn the least, stuck in subsistence labor. Dalits face discrimination everywhere they go. Each pattern requires its own solution, yet India's policies treat all disadvantage identically. This mismatch explains why decades of reservations, anti-discrimination laws, and poverty programs have failed to close persistent gaps.
+A significant body of scholarly work has established the continuing relevance of social institutions like gender, caste, religion, and ethnicity in determining economic trajectories (Harriss-White and Gooptu 2001; Thorat et al 2005; Thorat and Newman 2010; Deshpande 2011). In the Indian context, experimental research provides stark evidence of these barriers. For instance, Thorat and Attewell (2010) found that equally qualified applicants from Muslim and Dalit backgrounds faced significant discrimination in hiring for formal urban jobs compared to their high-caste Hindu counterparts. 
 
-The story of India's inequality is not just about who people are—it's fundamentally about where they live and what kinds of work they can access. Understanding these geographic and quality dimensions transforms our entire approach to addressing marginalization.
+Drawing on IHDS-II data from 204,568 individuals across 371 districts, our analysis exposes three distinct traps that fragment the Indian labor market. Muslims face a **Geographic Trap**, locked in regions where economic opportunities have evaporated. Adivasis are caught in a **Subsistence Mirage**, characterized by high work intensity but extreme poverty. Dalits encounter a **Distributed Barrier**, facing hiring discrimination that persists across all geographies. Because India treats these unique challenges with uniform policies, decades of reservations and poverty programs have failed to close the inequality gap.
+
+A paradox as charted in the Figure 1 will help us in understanding the complexity of employment differences amongst different groups.
+
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\wealth_employment_paradox.png"
+       alt="The Digital Divide" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 1:</strong> A bubble chart illustrating that groups with higher mean wealth (Forward castes) have lower employment rates, while the poorest groups (Adivasis) have the highest. 
+  </figcaption>
+</figure>
+
+
+India's labor market tells a deceptive story. On the surface, employment statistics suggest a simple hierarchy: Adivasis (Scheduled Tribes) have the highest employment rate at 53.3%, followed by Dalits (Scheduled Castes) at 45.5%, while Muslims languish at the bottom with just 35.5% employment. Forward castes follow at 43.3%. These numbers have shaped decades of policy—but they hide a fundamental truth. 
+
+The "point" of Muslims in this wealth-work relationship is their role as a critical outlier. While SC and ST groups fit the "distress labor" narrative—where lower wealth correlates with higher employment because they must work to survive—Muslims break this pattern. They possess higher mean wealth (15.3 compared to 14.0 for Dalits and 11.3 for Adivasis) yet suffer from much lower employment. This suggests that whereas SC/ST groups are pushed *into* low-quality labor by poverty, Muslims are being pushed *out* of the labor market entirely by their geographic concentration in stagnant regions.
+
+The story of India's inequality is not just about who people are, it's fundamentally about where they live and what kinds of work they can access. Understanding these geographic and quality dimensions transforms our entire approach to addressing marginalization.
 
 ---
 
-## Part 1: The Muslim Geographic Trap
+## Discussion on Employment Rate
 
-### Where Muslims Live Determines Whether They Can Work
+### The Muslim Geographic Trap
 
-When we analyzed employment rates across India's 371 districts, a striking pattern emerged. Districts with higher Muslim populations have systematically lower employment rates—not just for Muslims, but for everyone living there. The statistical relationship is undeniable: for every 10 percentage point increase in a district's Muslim population share, the overall employment rate falls by 1.69 percentage points. This correlation of -0.305 is highly significant (p < 0.001), meaning it's almost certainly not due to chance.
+#### Where Muslims Live Determines Whether They Can Work
 
-The geographic concentration is stark. Consider Kerala's Malappuram district, where Muslims comprise 73.8% of the population. Despite Kerala's reputation for high literacy rates (Malappuram exceeds 94%), the district has the lowest employment rate in our entire dataset at just 25.7%. Compare this to districts with minimal Muslim populations: Himachal Pradesh's district 02_8 has 0% Muslim population and 75.6% employment. Chhattisgarh's district 22_15, also with nearly zero Muslims, boasts 72.5% employment.
+When we analyzed employment rates across India's 371 districts, a striking pattern emerged. Districts with higher Muslim populations have systematically lower employment rates—not just for Muslims, but for everyone living there. For every 10 percentage point increase in a district's Muslim population share, the overall employment rate falls by 1.69 percentage points. This correlation of -0.305 is highly significant (p < 0.001).
+
+The geographic concentration is stark. Consider Kerala's Malappuram district, where Muslims comprise 73.8% of the population. Despite Kerala's reputation for high literacy rates (Malappuram exceeds 94%), the district has the lowest employment rate in our entire dataset at just 25.7%. This may be influenced by heavy migration that happens. Compare this to districts with minimal Muslim populations: Himachal Pradesh's district 02_8 has 0% Muslim population and 75.6% employment. Chhattisgarh's district 22_15, also with nearly zero Muslims, boasts 72.5% employment.
 
 This isn't limited to Kerala. Eastern Uttar Pradesh tells the same story. Districts in UP with 70-72% Muslim populations show employment rates hovering between 34-36%. Bihar's Muslim-majority districts average just 29% employment. Jammu and Kashmir's Muslim-dominated districts range from 33-48% employment. Across the board, high Muslim concentration predicts low employment for everyone in that district.
 
-### The Smoking Gun: What Happens Within Districts
 
-Here's where the analysis becomes definitive. When we compared Muslims and Brahmins living in different states, Muslims showed 7.7% lower odds of employment (OR = 0.923, p = 0.015)—a significant disadvantage. But when we compared Muslims and Brahmins living in the *same district*, this disadvantage completely vanished. The coefficient became +0.001 with a p-value of 0.842, meaning there's essentially no difference at all.
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\muslim_employment_correlation.png"
+       alt="The Digital Divide" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 2:</strong> A scatterplot showing a significant negative correlation (-0.305) between a district's Muslim population share and its overall employment rate. It supports the argument that Muslims are concentrated in economically stagnant regions where jobs are scarce for everyone.
+  </figcaption>
+</figure>
 
-This district fixed effects test proves that the Muslim employment gap is 100% geographic. It's not that Muslims can't find jobs when competing with Hindus in the same labor market. It's that Muslims are concentrated in places where nobody—Muslim or Hindu—can find adequate employment. The problem isn't discrimination in hiring; it's the absence of jobs in Muslim-concentrated regions.
 
-### How Did This Happen?
+#### What Happens Within Districts
 
-Three historical forces created this geographic trap. First, Mughal-era urbanization (1500s-1700s) concentrated Muslims in administrative centers like Lucknow, Agra, Bareilly, and Moradabad. These cities thrived under Mughal rule but declined under British administration and post-independence industrialization. What were once prosperous urban cores became economic backwaters.
+When we compared Muslims and Brahmins living in different states, Muslims showed 7.7% lower odds of employment (OR = 0.923, p = 0.015)—a significant disadvantage. But when we compared Muslims and Brahmins living in the *same district*, this disadvantage completely vanished. The coefficient became +0.001 with a p-value of 0.842, meaning there's essentially no difference at all.
 
-Second, the trauma of Partition in 1947 created lasting geographic segregation. Muslims who remained in India concentrated in "safe" enclaves for protection, creating dense urban neighborhoods that became increasingly isolated from economic opportunity. These areas—Old Delhi, parts of Hyderabad, pockets of Kolkata—turned into ghettos disconnected from growing sectors.
+This district fixed effects test proves that the Muslim employment gap is 100% geographic. A case can be made that Muslims are concentrated in places where nobody—Muslim or Hindu—can find adequate employment. Rahman and Rauf (2025) in their regional analysis highlight the acute disadvantages muslims face in high-concentration districts, such as Murshidabad (55.3% literacy) and Uttar Dinajpur (52.1%), where inadequate infrastructure, teacher shortages, and socio-cultural barriers impede access. The Ranganath Mishra 
+Commission's report and the The Sachar report, showed that the Muslims lagged far behind in their access to education, infrastructure, credit and employment in both public and private sectors. In fact, the literacy rate of Muslim males was only one percent above that of Dalit men—67.6% compared to 66.6%. 
 
-Third, the traditional Muslim economic base collapsed. Cities like Moradabad (famous for brassware), Banaras (silk weaving), and Aligarh (lock-making) were centers of Muslim artisan production. Mechanization and competition from Chinese imports decimated these craft industries between the 1950s and 2000s. The result: Muslim-concentrated districts lost their economic engines without replacement.
 
-### The Quality Problem Compounds the Quantity Problem
+### The Adivasi Subsistence Mirage
 
-Among Muslims who do find work, the situation remains difficult. Our employment quality analysis shows that 78.1% of working Muslims have casual employment—daily wage work with no security, no advance notice, and no benefits. Only 17.6% have permanent contracts. Their mean annual earnings are ₹50,567, which is 44.2% less than Forward castes' ₹90,577. Even after controlling for education, age, gender, and location, Muslims earn 19.9% less (p < 0.001).
-
-Interestingly, only 2.1% of Muslims participate in MGNREGA, the rural employment guarantee scheme—even lower than Forward castes (2.4%) despite Muslims having much lower earnings. This confirms their urban and peri-urban concentration, as MGNREGA is primarily a rural program. Muslims need jobs where they live, not rural workfare programs they can't access.
-
----
-
-## Part 2: The Adivasi Subsistence Mirage
-
-### The Paradox of High Employment and Deep Poverty
+#### The Paradox of High Employment and Deep Poverty
 
 The Adivasi employment pattern is the exact opposite of Muslims. Districts with higher Adivasi populations have significantly higher employment rates. The correlation is +0.378 (p < 0.001), even stronger than the Muslim correlation but in the reverse direction. For every 10 percentage point increase in Adivasi population share, district employment rises by 1.79 percentage points.
 
 Chhattisgarh's tribal belt illustrates this dramatically. District 22_15, with 61.4% Adivasi population, has 72.5% employment—the highest in India. District 22_5, with 93.9% Adivasis, shows 63.3% employment. Gujarat's heavily tribal district 24_20 (96.9% Adivasi) has 62% employment. Mizoram, nearly entirely Adivasi at 97.7%, maintains 53.9% employment. These rates far exceed the national average of 44%.
 
-But here's the cruel irony: these high-employment districts are India's poorest regions. Chhattisgarh, Jharkhand, and Odisha—where Adivasis concentrate—rank among the bottom three states in per capita income. How can the group that works the most remain the poorest? The answer lies in what kind of work they're doing.
 
-### The Quality Crisis: Working More, Earning Less
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\st_employment_correlation.png"
+       alt="Adivasi (ST) population share and district employment" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 3:</strong> A scatterplot showing a strong positive correlation (+0.378) between Adivasi (ST) population share and district employment. This visualizes the paradox where tribal belts have the highest employment rates in the country, but as the research shows, this is "distress employment" in subsistence agriculture.
+  </figcaption>
+</figure>
 
-Adivasis face the worst job quality of any group we studied. A devastating 85.5% work in casual employment—the highest casualization rate of any social group. Only 11.8% have permanent jobs, compared to 40.6% of Forward castes. This means most Adivasis wake up each day uncertain whether they'll have work, negotiating wages daily with no security whatsoever.
+These high-employment districts are India's poorest regions. Chhattisgarh, Jharkhand, and Odisha—where Adivasis concentrate—rank among the bottom three states in per capita income. How can the group that works the most remain the poorest? The answer lies in what kind of work they're doing.
 
-The earnings data is even more shocking. Adivasis' mean annual earnings are ₹35,883—a full 60.4% less than Forward castes. The median is worse: ₹15,000 versus ₹48,000 for Forward castes, a 68% gap. Even after controlling for education, age, gender, and location, Adivasis face a wage penalty of 54.6%—the largest of any group. This means that an Adivasi and a Forward caste person with the same education, working in the same state, will see the Adivasi earn barely half as much.
-
-The arithmetic is brutal. Adivasis work more (53.3% employment rate) but earn so little per job that their annual income per person is ₹19,125 (employment rate × mean earnings). Forward castes work less (39.8% employment rate) but earn so much per job that their annual income reaches ₹36,049—nearly double. Forward castes work 25% less but earn 88% more overall.
-
-### Why Adivasis Can't Stop Working
+#### Why Adivasis Can't Stop Working
 
 Adivasis concentrate in forest and hilly states where the economy is based on subsistence agriculture and forest produce collection. In these areas, there is no such thing as "unemployment" in the traditional sense. If you're not working, you're not eating. Women collect firewood, tend small rain-fed farms, and gather forest products like tendu leaves, mahua flowers, and sal seeds. Men do agricultural labor, migrate seasonally for construction work, or participate in small-scale mining.
 
@@ -79,73 +101,85 @@ This explains why Adivasi women's labor force participation is extraordinarily h
 
 The states where Adivasis concentrate have structural features that create high employment but low income. Forest reservation laws from the British era restricted Adivasis' access to land, pushing them into marginal agriculture. Lack of irrigation means dependence on monsoons. Poor roads and infrastructure limit market access, so farmers can't get good prices. The result is that everyone works constantly but remains trapped in poverty.
 
-### The Mirage of Employment Statistics
+#### The Mirage of Employment Statistics
 
 This reveals a fundamental flaw in using employment rates as a welfare metric. Adivasis top the employment rankings at 53.3%, which on paper looks successful. But this "high employment" is actually evidence of extreme deprivation. They're trapped in subsistence economies where survival requires constant labor but offers no path to accumulation or mobility. Development economists call this "distress employment"—working because you must, not because the work is productive or remunerative.
 
 ---
 
-## Part 3: The Dalit Distributed Pattern
+### The Dalit Distributed Pattern
 
-### No Geographic Pattern, Different Problem
+#### No Geographic Pattern, Different Problem
 
-When we ran the same geographic analysis for Dalits, something unexpected happened: nothing. The correlation between Dalit population share and district employment rate was +0.081 with a p-value of 0.120—statistically indistinguishable from zero. Unlike Muslims (who concentrate in low-employment areas) or Adivasis (who concentrate in high-employment areas), Dalits show no geographic pattern at all.
+When the same geographic analysis was run for Dalits, something unexpected happened: nothing. The correlation between Dalit population share and district employment rate was +0.081 with a p-value of 0.120—statistically indistinguishable from zero. Unlike Muslims (who concentrate in low-employment areas) or Adivasis (who concentrate in high-employment areas), Dalits show no geographic pattern at all.
 
 Look at the variance in high-Dalit districts. Uttarakhand's district 05_8 has 66.7% Dalit population and 59.3% employment—quite high. Tamil Nadu's district 33_9, with 69.8% Dalits, shows 52.5% employment. But Punjab's district 03_5, with 56.9% Dalits, has just 36.7% employment. Delhi's heavily Dalit district 07_11 (52.4% Dalit) shows only 30.6% employment. The range is enormous: 30.6% to 59.3%, with no clear relationship to Dalit concentration.
 
-This makes sense historically. Unlike Muslims (who concentrated in Mughal urban centers) or Adivasis (who lived in forest areas), Dalits were distributed across every village in India. The caste system assigned them "polluting" occupations—manual scavenging, leather work, agricultural labor, sanitation—that existed everywhere. After independence, reservations and urbanization created even more geographic dispersion. Today, Dalits comprise 21% of India's population and are found in every district.
 
-### Within-District Barriers
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\sc_employment_correlation.png"
+       alt="The Digital Divide" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 4:</strong> Shows a near-zero correlation (+0.081, non-significant) between Dalit concentration and district employment. This supports the claim that Dalit disadvantage is not geographic but is distributed across all regions due to caste-based barriers.
+  </figcaption>
+</figure>
+
+
+Dalits were distributed across every village in India. The caste system assigned them "polluting" occupations like manual scavenging, leather work, agricultural labor, sanitation that existed everywhere. After independence, reservations and urbanization created even more geographic dispersion. 
+
+#### Within-District Barriers
 
 The lack of geographic pattern suggests Dalit disadvantage operates differently. While we haven't completed the district fixed effects analysis for Dalits yet, we predict it will show that the Dalit employment penalty *shrinks* but *remains* when comparing people in the same district—unlike Muslims, where it disappears entirely. This would indicate that Dalits face actual within-district discrimination in hiring and job access, rather than just being stuck in the wrong places.
 
-Their employment quality metrics confirm ongoing disadvantage. Among working Dalits, 80.1% have casual employment, 15.7% have permanent jobs, and mean earnings are ₹43,294 (52.2% less than Forward castes). After controlling for education and location, Dalits still earn 32.2% less—a substantial penalty that suggests occupational segregation or discrimination persists. Their MGNREGA participation of 6.6% indicates that many rely on government workfare when private employment fails.
-
 ---
 
-## Part 4: Why Universal Policies Fail
 
-### The Same Intervention, Different Effects
+## Discussion on Employment quality
 
-India's primary response to marginalization has been employment reservations (quotas): 15% of government jobs for Dalits, 7.5% for Adivasis, and increasingly for Muslims in some states. On the surface, this seems fair—give all disadvantaged groups equal access to public employment. But our analysis shows why this approach fundamentally misses the mark.
+Now we will look into what the analysis produced regarding employment quality by looking at contract of work and income. Among Muslims who do find work, the situation remains difficult. Our employment quality analysis shows that 78.1% of working Muslims have casual employment—daily wage work with no security, no advance notice, and no benefits. Only 17.6% have permanent contracts. 
 
-For Dalits, reservations work reasonably well. They're distributed across all regions and face hiring discrimination, so mandating their inclusion in government jobs directly addresses the barrier they face. For Adivasis, reservations have limited effect. They help the small educated minority, but 85% of Adivasis are stuck in casual agricultural work where government job quotas are irrelevant. They don't need access to jobs that already exist—they need their existing subsistence work to pay better.
+**Insights on Urban Employment:**
+The low participation of Muslims in MGNREGA (2.1%) underscores their concentration in urban and peri-urban areas. However, this urban presence does not translate into better job quality. Urban Muslim employment is characterized by **extreme informality**, with casualization rates exceeding 78%. Furthermore, Muslims show the lowest access to formal social security among all groups (mean Formal Index of 1.10), making them disproportionately vulnerable to urban economic shocks. This suggests that the urban labor market is as hostile to marginalized groups as the rural one, but through different mechanisms.
 
-For Muslims, reservations are nearly useless. You cannot reserve jobs that don't exist. In districts where 70% of the population is Muslim but overall employment is only 35%, creating quotas in the handful of government positions available doesn't address the fundamental problem: there are no jobs for anyone in that district. Muslims need job *creation* in their regions, not access to a limited pool of existing positions.
 
-Similarly, consider MGNREGA, the rural employment guarantee scheme. It provides 100 days of wage work per household, which sounds universally beneficial. But its impact varies enormously. Dalits benefit substantially—9.7% participation helps when private employment discriminates against them. For Adivasis, the 13.6% participation rate shows it's critical but doesn't solve the underlying problem of low productivity. For Muslims, only 3.2% participate because they're concentrated in urban and peri-urban areas where MGNREGA isn't implemented.
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\contract_type_distribution.png"
+       alt="Type of Employment" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 5:</strong> A stacked bar chart showing the percentage of workers in Casual, Temporary, and Permanent contracts across social groups. It highlights that **85.5% of Adivasis** and **80.1% of Dalits** are in casual labor, compared to much higher permanent contract rates for Forward castes.
+  </figcaption>
+</figure>
 
-### What Each Group Actually Needs
 
-The evidence points to three distinct policy packages:
+Interestingly, only 2.1% of Muslims participate in MGNREGA, the rural employment guarantee scheme, even lower than Forward castes (2.4%) despite Muslims having much lower earnings. This confirms their urban and peri-urban concentration, as MGNREGA is primarily a rural program. Muslims need jobs where they live, not rural workfare programs they can't access. Therefore a a large
+urban public employment garuntee programme as a garuntee on par with MGNREGA is needed. Scholars have discussed the ned for am urban employment garuntee which is not just an extension of MGNREGA but reimagines it according urban unemployment issues (Drèze 2020, Bsole 2019, Bhan et al 2024)
 
-**For Muslims: Create Jobs Where They Live**
-- Special Economic Zones in UP, Bihar, and Kerala's Muslim-concentrated districts
-- Infrastructure investment in roads and electricity in eastern UP
-- Migration support for moving to high-employment regions like Gujarat and Maharashtra
-- Urban renewal projects connecting old city cores to new industrial areas
+Among working Dalits, 80.1% have casual employment, 15.7% have permanent jobs, as shown in Figure 5 and mean earnings are ₹43,294 (52.2% less than Forward castes). Adivasis on the other hand face the worst job quality of any group we studied. As Figure 5 shows a devastating 85.5% work in casual employment, contributing to the highest casualization rate of any social group. Only 11.8% have permanent jobs, compared to 40.6% of Forward castes. This means most Adivasis wake up each day uncertain whether they'll have work, negotiating wages daily with no security whatsoever.
 
-The goal is to create jobs where Muslims already live or help them move to where jobs exist. Raising Muslim-district employment to national average would increase Muslim employment from 35.5% to ~41%, closing **75% of the gap**.
+<figure class="text-center">
+  <img src="\assets\img\IIHDSemploy\earnings_distribution.png"
+       alt="Job Security" 
+       class="img-fluid" 
+       style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption class="mt-2 text-muted">
+    <strong>Figure 6:</strong> Boxplots of annual earnings on a **Log Scale**. It shows the persistent shift toward higher earnings for Forward castes, even when ignoring outliers, and highlights the "Subsistence Mirage" of Adivasis who earn the least despite working the most. 
+  </figcaption>
+</figure>
 
-**For Adivasis: Improve Job Quality, Not Quantity**
-- Increase MGNREGA wages from ₹250 to ₹400 per day (boosting income by 60% for participants)
-- Fast-track implementation of the Forest Rights Act for land titles and self-employment
-- Invest in agricultural productivity through micro-irrigation and seed improvement
-- Provide skills training for educated youth to transition into formal sector jobs
 
-Improving job quality for 20-30% of Adivasis would reduce poverty from 45% to 30-35%.
+The earnings data is even more shocking. Adivasis' mean annual earnings are ₹35,883—a full 60.4% less than Forward castes. The median is worse: ₹15,000 versus ₹48,000 for Forward castes, a 68% gap. Even after controlling for education, age, gender, and location, Adivasis face a wage penalty of 54.6%—the largest of any group. This means that an Adivasi and a Forward caste person with the same education, working in the same state, will see the Adivasi earn barely half as much.
 
-**For Dalits: Remove Barriers, Increase Mobility**
-- Extend reservation quotas to the private sector
-- Implement audit studies and financial penalties for proven discrimination
-- Provide urban migration support through hostels and professional networks
-- Improve education quality through bridge courses and mentorship programs
+Adivasis work more (53.3% employment rate) but earn so little per job that their annual income per person is ₹19,125 (employment rate × mean earnings). Forward castes work less (39.8% employment rate) but earn so much per job that their annual income reaches ₹36,049—nearly double. Forward castes work 25% less but earn 88% more overall. After controlling for education and location, the analysis shows Dalits still earn 32.2% less—a substantial penalty that suggests occupational segregation or discrimination persists. Their MGNREGA participation of 6.6% indicates that many rely on government workfare when private employment fails.
 
-A combination of these could raise Dalit employment from 45.5% to 48-50%.
+Meanwhile mean annual earnings of muslims is ₹50,567, which is 44.2% less than Forward castes' ₹90,577. Even after controlling for education, age, gender, and location, Muslims earn 19.9% less (p < 0.001).
 
----
 
-## Part 5: The Methodological Insight
+
+## The Methodological Insight
 
 ### Why the Comparison Matters
 
@@ -157,7 +191,7 @@ This three-way comparison acts as a falsification test. The methodology is sound
 
 ### Rethinking Employment as a Metric
 
-Perhaps the most important lesson is that employment rates alone are deeply misleading. Adivasis rank first in employment (53.3%) but last in income. Forward castes rank fifth in employment (39.8%) but first in income. The disconnect occurs because employment without adequate wages produces poverty, not prosperity.
+Perhaps the most important lesson we can learn from this analysis is that employment rates alone are deeply misleading. Adivasis rank first in employment (53.3%) but last in income. Forward castes rank fifth in employment (39.8%) but first in income. The disconnect occurs because employment without adequate wages produces poverty, not prosperity.
 
 When Adivasis' 53.3% employment rate is multiplied by their ₹35,883 mean earnings, we get ₹19,125 in annual income per person—the lowest of any group. When Forward castes' 39.8% employment rate is multiplied by their ₹90,577 mean earnings, we get ₹36,049—nearly double Adivasis' income despite working 25% less.
 
@@ -169,13 +203,11 @@ Our visualization of earnings distribution (Log Scale) highlights the massive sp
 
 ## Conclusion: From Universal Policies to Targeted Solutions
 
-The geography of marginalization in India operates through three distinct mechanisms. Muslims suffer from geographic segregation in economically stagnant districts—a quantity problem requiring place-based development. Adivasis suffer from employment quality deprivation in subsistence economies—a quality problem requiring wage and productivity enhancement. Dalits suffer from distributed discrimination across all regions—an access problem requiring anti-discrimination enforcement and mobility support.
-
-Current policies assume all disadvantage is equivalent and offer the same tools to all groups: employment reservations, anti-discrimination laws, and poverty alleviation schemes. This one-size-fits-all approach inevitably fails because it doesn't match interventions to mechanisms. Reservations can't create jobs in Muslim-concentrated districts. Employment guarantees can't improve productivity for Adivasis who already work. Place-based policies can't help Dalits who face barriers everywhere.
+The geography of marginalization in India operates through three distinct mechanisms. Muslims suffer from geographic segregation in economically stagnant districts—a quantity problem requiring place-based development. Adivasis suffer from employment quality deprivation in subsistence economies—a quality problem requiring wage and productivity enhancement. Dalits still suffer from distributed discrimination across all regions—an access problem requiring anti-discrimination enforcement and mobility support.
 
 The evidence from 204,568 individuals across 371 districts tells us that understanding *why* outcomes differ must precede deciding *what* to do. Muslims don't need better access to jobs that don't exist—they need the jobs to exist in the first place. Adivasis don't need more work—they're already working themselves into exhaustion—they need that work to pay living wages. Dalits don't need geographic targeting—they're everywhere—they need discrimination to stop.
 
-Effective policy requires abandoning comfortable assumptions and accepting uncomfortable truths: marginalization is heterogeneous, mechanisms differ across groups, and universal solutions create universal failures. Only by matching interventions to the specific barriers each group faces—geographic, economic, or discriminatory—can India begin to close gaps that decades of well-intentioned but misdirected policies have failed to address.
+Effective policy should address the fact that marginalization is heterogeneous and mechanisms differ across groups. Only by matching interventions to the specific barriers each group faces—geographic, economic, or discriminatory—can India begin to close gaps that decades of well-intentioned but misdirected policies have failed to address.
 
 ---
 
@@ -199,9 +231,32 @@ Effective policy requires abandoning comfortable assumptions and accepting uncom
 
 ## Data & Methods
 
-- **Source**: India Human Development Survey (IHDS) 2011-12
+- **Source**: Desai, Sonalde, Reeve Vanneman and National Council of Applied Economic Research. India Human Development Survey-II (IHDS-II), 2011-12. Inter-university Consortium for Political and Social Research [distributor], 2018-08-08. https://doi.org/10.3886/ICPSR36151.v6
 - **Sample**: 204,568 individuals across 371 districts in 33 states
 - **Methods**: District fixed effects models, geographic correlation analysis, wage regressions with education and location controls
 - **Standard Errors**: Clustered at Primary Sampling Unit (PSU) level
 
 **Keywords**: Employment inequality, geographic sorting, caste and religion, labor market discrimination, India, development economics
+
+
+
+## Bibliography
+
+Basole, A (2019): “State of Working India 2019,” Centre for Sustainable Employment, Azim Premji University, https://publications.azimpremjiuniversity.edu.in/1977/1/State_of_Working_India_2019.pdf.
+
+Bhan, G., Anand, S., Nagpal, S., & Khandelwal, V. (2024). Reimagining urban employment programmes. Economic & Political Weekly, 59(22), 14-18.
+
+Deshpande, A (2011): The Grammar of Caste: Economic Discrimination in Contemporary India, Oxford: Oxford University Press. 
+
+
+Drèze, J (2020): “Decentralised Urban Employment and Training (DUET) Scheme: A Proposal,” Policy Brief No 23, National Centre for Demographic Studies, https://ncds.nic.in/sites/default/files/PolicyBriefs/PB23NCDS.pdf.
+
+Harriss-White, B and N Gooptu (2001): “Mapping India’s World of Unorganised Labour,” Socialist Register, Vol 37, pp 89–118.
+
+Mhaskar, S. (2018). Ghettoisation of economic choices in a global city: A case study of Mumbai. Economic and Political Weekly, 29-37.
+
+Thorat, S, Aryama and P Negi (eds) (2005): Reservation and Private Sector: Quest for Equal Opportunity and Growth, Indian Institute of Dalit Studies, New Delhi.
+
+Thorat, S and P Attewell (2010): “The Legacy of Social Exclusion: A Correspondence Study of Job Discrimination in India’s Urban Private Sector,” Blocked by Caste: Economic Discrimination in Modern India, S Thorat and K S Newman (eds), New Delhi: Oxford University Press.
+
+Thorat, S and K S Newman (eds) (2010): Blocked by Caste: Economic Discrimination in Modern India, New Delhi: Oxford University Press.
