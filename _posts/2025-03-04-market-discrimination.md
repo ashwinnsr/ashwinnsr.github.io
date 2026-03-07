@@ -25,8 +25,8 @@ The data reveals a stark divergence between Scheduled Caste (SC) and Scheduled T
 However, formal access does not mean equal treatment. Despite their presence in Mandis, SC farmers exhibit systematically lower access to premium, state-run Government Procurement (FCI) channels compared to their General Caste peers. 
 
 <figure class="text-center">
-  <img src="C:\Users\ashwin\Documents\Agrarian_ market acess\code\plots\market_access_by_caste_expanded.png"
-       alt="The Invisible Workshop" 
+  <img src="assets\img\agriculture-discrimination\market_access_by_caste_expanded.png"
+       alt="Where do they sell" 
        class="img-fluid" 
        style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <figcaption class="mt-2 text-muted">
@@ -44,7 +44,7 @@ A standard average analysis (Ordinary Least Squares) suggests a negligible aggre
 * **Equalization at the Bottom (10th Percentile):** At the bottom of the market (distress sales), the caste penalty disappears completely (+1.7%). This points to a grim universal price floor: when farmers are desperate, the market offers uniformly poor prices to everyone, regardless of caste.
 
 <figure class="text-center">
-  <img src="C:\Users\ashwin\Documents\Agrarian_ market acess\code\plots\price_gaps_by_caste.png" 
+  <img src="assets\img\agriculture-discrimination\price_gaps_by_caste.png" 
        class="img-fluid" 
        style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <figcaption class="mt-2 text-muted">
@@ -60,7 +60,7 @@ The burden falls entirely on the most vulnerable. **"Marginal" SC farmers (ownin
 
 
 <figure class="text-center">
-  <img src="C:\Users\ashwin\Documents\Agrarian_ market acess\code\plots\st_land_penalty_plot.png" 
+  <img src="assets\img\agriculture-discrimination\st_land_penalty_plot.png"
        class="img-fluid" 
        style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <figcaption class="mt-2 text-muted">
