@@ -11,6 +11,16 @@ description: "An analysis of IHDS-II ( 2011-2012) data to understand the effect 
 ---
 
 
+<div class="text-center mt-4 mb-4">
+  <a href="https://github.com/ashwinnsr/IIHDS_Project" 
+     class="btn btn-primary" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="fab fa-github"></i> View Code on GitHub
+  </a>
+</div>
+
+
 ## Persistence of Inequality
 
 Inequality in labour market outcomes persists, even in the face of rapid economic growth in India. This project aimed to investigate the type of employment inequality faced by different social groups and how caste and religion shapes employment opportunities and outcomes. Understanding these dynamics is crucial, as employment is a primary determinant of an individual's life chances and overall socio-economic mobility.
@@ -99,7 +109,7 @@ Adivasis concentrate in forest and hilly states where the economy is based on su
 
 This explains why Adivasi women's labor force participation is extraordinarily high—not because of gender equality, but because of poverty. Everyone must work because there's no alternative income source. The 13.6% of Adivasis participating in MGNREGA (the government employment guarantee scheme)—the highest rate of any group, four times that of Forward castes—confirms this desperation. When even subsistence work fails, they turn to government workfare programs that pay minimal wages.
 
-The states where Adivasis concentrate have structural features that create high employment but low income. Forest reservation laws from the British era restricted Adivasis' access to land, pushing them into marginal agriculture. Lack of irrigation means dependence on monsoons. Poor roads and infrastructure limit market access, so farmers can't get good prices. The result is that everyone works constantly but remains trapped in poverty.
+The states where Adivasis concentrate have structural features that create high employment outcomes but low income. Forest reservation laws from the British era restricted Adivasis' access to land, pushing them into marginal agriculture. Lack of irrigation means dependence on monsoons. Poor roads and infrastructure limit market access, so farmers can't get good prices. The result is that everyone works constantly but remains trapped in poverty.
 
 #### The Mirage of Employment Statistics
 
@@ -239,14 +249,6 @@ Effective policy should address the fact that marginalization is heterogeneous a
 **Keywords**: Employment inequality, geographic sorting, caste and religion, labor market discrimination, India, development economics
 
 
-<div class="text-center mt-4 mb-4">
-  <a href="https://github.com/ashwinnsr/IIHDS_Project" 
-     class="btn btn-primary" 
-     target="_blank" 
-     rel="noopener noreferrer">
-    <i class="fab fa-github"></i> View Code on GitHub
-  </a>
-</div>
 
 ## Bibliography
 

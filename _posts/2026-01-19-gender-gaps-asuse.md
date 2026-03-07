@@ -10,6 +10,16 @@ math: true
 description: "An analysis of ASUSE 2023-24 data to understand the role of women in India's unincorporated sector enterprises."
 ---
 
+<div class="text-center mt-4 mb-4">
+  <a href="https://github.com/ashwinnsr/asuse-gender-analysis" 
+     class="btn btn-primary" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="fab fa-github"></i> View Code on GitHub
+  </a>
+</div>
+
+
 India's unincorporated sector is the backbone of its economy, providing livelihoods to millions. However, a closer look at the latest **Annual Survey of Unincorporated Sector Enterprises (ASUSE) 2023-24** reveals a stark reality where the entrepreneurial journey for women is fundamentally different and significantly more constrained than for men. 
 
 ASUSE survey is devoted exclusively to an integrated survey on economic and operational characteristics of unincorporated non-agricultural enterprises in manufacturing, trade and other services sectors to supplement the corporate sector data. Unincorporated non-agricultural establishments include proprietary and partnership establishments (excluding Limited Liability Partnership (LLP) establishments), any society,trust,association,club or body of individuals  or Co-operatives, Self-Help Groups (SHGs), Non-Profit Institutions (NPI/NPISH), etc which are neither registered under Companies Act, 1956 nor under Companies Act, 2013. It also includes companies not registred under Sections 2m(i) and 2m(ii) of the Factories Act, 1948.
@@ -128,15 +138,6 @@ Finally, the "Credit Gap" remains a significant hurdle. Only **6%** of women ent
 ## Conclusion
 The data from ASUSE 2023-24 tells a clear story: women entrepreneurs in India are not just "smaller" versions of male ones. They operate in different spaces (the home), different sectors (apparel/tobacco), and face unique barriers to technology and credit. 
 
-Closing these gaps isn't just about equity—it's about unlocking the economic potential of half the country's population.
 
-<div class="text-center mt-4 mb-4">
-  <a href="https://github.com/ashwinnsr/asuse-gender-analysis" 
-     class="btn btn-primary" 
-     target="_blank" 
-     rel="noopener noreferrer">
-    <i class="fab fa-github"></i> View Code on GitHub
-  </a>
-</div>
 
 ---

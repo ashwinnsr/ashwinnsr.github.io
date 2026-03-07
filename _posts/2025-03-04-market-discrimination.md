@@ -8,6 +8,16 @@ math: true
 description: "Explains the difference between geographic exclusion for ST farmers andthe formal market inclusion for SC farmers "
 ---
 
+
+<div class="text-center mt-4 mb-4">
+  <a href="https://github.com/ashwinnsr/agricultural-market-discrimination" 
+     class="btn btn-primary" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="fab fa-github"></i> View Code on GitHub
+  </a>
+</div>
+
 Despite the modernization of Indian agriculture, caste-based disparities continue to dictate economic outcomes in the rural sector. Literature on caste-based analysis on Indian Agriculture revolve around income disparities, agricultural output and yield demonstrating the disadvantage that SC and ST face in agriculture (Deshpande 2000; Thorat et al 2007; Rawal and Swaminathan 2011; Agarwal and Mahesh 2021; Rao 2017). Studies also analyze caste disparities in access to credit,  quality information and landholding (Kumar and Venkatachalam 2019; Krishna et al 2019; Goli et al 2015). 
 
 While historical discourse has largely focused on disparities in land ownership and access to credit, less attention has been paid to the final mile of the agricultural cycle i.e market realization of agricultural produce. In addition, much of policy discussion and academic literature adopt a binary frame work of “disadvantaged” versus “upper caste” groups, often overlooking the differences among the disadvantaged groups, an omission with significant theoretical, empirical, and policy implications. Few studies focus specifically on caste disparities in agricultural net returns. 
@@ -83,13 +93,5 @@ The analysis attempts to go beyond the simplistic binary of "excluded vs. includ
 
 For the smallest landholders, the market is not a neutral economic arbiter; it is a mechanism of stratified extraction. Policy interventions that merely focus on building more physical markets (Mandis) might fail to address the fundamental, pre-market power imbalances that dictate who gets paid what. True agricultural reform must address the interlocked dependencies of land, credit, and social identity that shape the final mile.
 
-<div class="text-center mt-4 mb-4">
-  <a href="https://github.com/ashwinnsr/agricultural-market-discrimination" 
-     class="btn btn-primary" 
-     target="_blank" 
-     rel="noopener noreferrer">
-    <i class="fab fa-github"></i> View Code on GitHub
-  </a>
-</div>
 
 
