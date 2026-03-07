@@ -239,6 +239,14 @@ Effective policy should address the fact that marginalization is heterogeneous a
 **Keywords**: Employment inequality, geographic sorting, caste and religion, labor market discrimination, India, development economics
 
 
+<div class="text-center mt-4 mb-4">
+  <a href="https://github.com/ashwinnsr/IIHDS_Project" 
+     class="btn btn-primary" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="fab fa-github"></i> View Code on GitHub
+  </a>
+</div>
 
 ## Bibliography
 

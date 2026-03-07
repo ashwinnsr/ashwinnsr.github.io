@@ -130,4 +130,13 @@ The data from ASUSE 2023-24 tells a clear story: women entrepreneurs in India ar
 
 Closing these gaps isn't just about equity—it's about unlocking the economic potential of half the country's population.
 
+<div class="text-center mt-4 mb-4">
+  <a href="https://github.com/ashwinnsr/asuse-gender-analysis" 
+     class="btn btn-primary" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    <i class="fab fa-github"></i> View Code on GitHub
+  </a>
+</div>
+
 ---
