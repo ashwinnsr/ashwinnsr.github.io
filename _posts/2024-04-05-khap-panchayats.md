@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title: "The Pseudo-State and Politics of Khap Panchayats"
 date: 2025-01-05
 author:
