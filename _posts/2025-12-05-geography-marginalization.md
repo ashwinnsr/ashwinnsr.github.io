@@ -21,7 +21,7 @@ description: "An analysis of IHDS-II ( 2011-2012) data to understand the effect 
 </div>
 
 
-## Persistence of Inequality
+## Abstract
 
 Inequality in labour market outcomes persists, even in the face of rapid economic growth in India. This project aimed to investigate the type of employment inequality faced by different social groups and how caste and religion shapes employment opportunities and outcomes. Understanding these dynamics is crucial, as employment is a primary determinant of an individual's life chances and overall socio-economic mobility.
 
@@ -50,7 +50,7 @@ The story of India's inequality is not just about who people are, it's fundament
 
 ---
 
-## Discussion on Employment Rate
+## 1. Discussion on Employment Rate
 
 ### The Muslim Geographic Trap
 
@@ -145,8 +145,7 @@ The lack of geographic pattern suggests Dalit disadvantage operates differently.
 
 ---
 
-
-## Discussion on Employment quality
+## 2. Discussion on Employment Quality
 
 Now we will look into what the analysis produced regarding employment quality by looking at contract of work and income. Among Muslims who do find work, the situation remains difficult. Our employment quality analysis shows that 78.1% of working Muslims have casual employment—daily wage work with no security, no advance notice, and no benefits. Only 17.6% have permanent contracts. 
 
@@ -166,7 +165,7 @@ The low participation of Muslims in MGNREGA (2.1%) underscores their concentrati
 
 
 Interestingly, only 2.1% of Muslims participate in MGNREGA, the rural employment guarantee scheme, even lower than Forward castes (2.4%) despite Muslims having much lower earnings. This confirms their urban and peri-urban concentration, as MGNREGA is primarily a rural program. Muslims need jobs where they live, not rural workfare programs they can't access. Therefore a a large
-urban public employment garuntee programme as a garuntee on par with MGNREGA is needed. Scholars have discussed the ned for am urban employment garuntee which is not just an extension of MGNREGA but reimagines it according urban unemployment issues (Drèze 2020, Bsole 2019, Bhan et al 2024)
+social infrastructure is needed. 
 
 Among working Dalits, 80.1% have casual employment, 15.7% have permanent jobs, as shown in Figure 5 and mean earnings are ₹43,294 (52.2% less than Forward castes). Adivasis on the other hand face the worst job quality of any group we studied. As Figure 5 shows a devastating 85.5% work in casual employment, contributing to the highest casualization rate of any social group. Only 11.8% have permanent jobs, compared to 40.6% of Forward castes. This means most Adivasis wake up each day uncertain whether they'll have work, negotiating wages daily with no security whatsoever.
 
@@ -187,9 +186,9 @@ Adivasis work more (53.3% employment rate) but earn so little per job that their
 
 Meanwhile mean annual earnings of muslims is ₹50,567, which is 44.2% less than Forward castes' ₹90,577. Even after controlling for education, age, gender, and location, Muslims earn 19.9% less (p < 0.001).
 
+---
 
-
-## The Methodological Insight
+## 3. The Methodological Insight
 
 ### Why the Comparison Matters
 
@@ -211,7 +210,7 @@ Our visualization of earnings distribution (Log Scale) highlights the massive sp
 
 ---
 
-## Conclusion: From Universal Policies to Targeted Solutions
+## 4. Conclusion: From Universal Policies to Targeted Solutions
 
 The geography of marginalization in India operates through three distinct mechanisms. Muslims suffer from geographic segregation in economically stagnant districts—a quantity problem requiring place-based development. Adivasis suffer from employment quality deprivation in subsistence economies—a quality problem requiring wage and productivity enhancement. Dalits still suffer from distributed discrimination across all regions—an access problem requiring anti-discrimination enforcement and mobility support.
 
@@ -221,7 +220,7 @@ Effective policy should address the fact that marginalization is heterogeneous a
 
 ---
 
-## Summary Table: Three Groups, Three Solutions
+## 5. Summary Table: Three Groups, Three Solutions
 
 | Dimension | Muslims | Adivasis | Dalits |
 |-----------|---------|----------|--------|
@@ -239,7 +238,7 @@ Effective policy should address the fact that marginalization is heterogeneous a
 
 ---
 
-## Data & Methods
+## 6. Data & Methods
 
 - **Source**: Desai, Sonalde, Reeve Vanneman and National Council of Applied Economic Research. India Human Development Survey-II (IHDS-II), 2011-12. Inter-university Consortium for Political and Social Research [distributor], 2018-08-08. https://doi.org/10.3886/ICPSR36151.v6
 - **Sample**: 204,568 individuals across 371 districts in 33 states
@@ -248,9 +247,9 @@ Effective policy should address the fact that marginalization is heterogeneous a
 
 **Keywords**: Employment inequality, geographic sorting, caste and religion, labor market discrimination, India, development economics
 
+---
 
-
-## Bibliography
+## 7. Bibliography
 
 Basole, A (2019): “State of Working India 2019,” Centre for Sustainable Employment, Azim Premji University, https://publications.azimpremjiuniversity.edu.in/1977/1/State_of_Working_India_2019.pdf.
 
@@ -269,4 +268,8 @@ Thorat, S, Aryama and P Negi (eds) (2005): Reservation and Private Sector: Quest
 
 Thorat, S and P Attewell (2010): “The Legacy of Social Exclusion: A Correspondence Study of Job Discrimination in India’s Urban Private Sector,” Blocked by Caste: Economic Discrimination in Modern India, S Thorat and K S Newman (eds), New Delhi: Oxford University Press.
 
+Thorat, S and K S Newman (eds) (2010): Blocked by Caste: Economic Discrimination in Modern India, New Delhi: Oxford University Press.
+
+***
+*All datasets, R-scripts, diagnostic files, and spatial mappings used in this analysis are open-source and available in the project GitHub repository.*
 Thorat, S and K S Newman (eds) (2010): Blocked by Caste: Economic Discrimination in Modern India, New Delhi: Oxford University Press.

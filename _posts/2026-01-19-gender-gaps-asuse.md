@@ -20,6 +20,8 @@ description: "An analysis of ASUSE 2023-24 data to understand the role of women 
 </div>
 
 
+## Abstract
+
 India's unincorporated sector is the backbone of its economy, providing livelihoods to millions. However, a closer look at the latest **Annual Survey of Unincorporated Sector Enterprises (ASUSE) 2023-24** reveals a stark reality where the entrepreneurial journey for women is fundamentally different and significantly more constrained than for men. 
 
 ASUSE survey is devoted exclusively to an integrated survey on economic and operational characteristics of unincorporated non-agricultural enterprises in manufacturing, trade and other services sectors to supplement the corporate sector data. Unincorporated non-agricultural establishments include proprietary and partnership establishments (excluding Limited Liability Partnership (LLP) establishments), any society,trust,association,club or body of individuals  or Co-operatives, Self-Help Groups (SHGs), Non-Profit Institutions (NPI/NPISH), etc which are neither registered under Companies Act, 1956 nor under Companies Act, 2013. It also includes companies not registred under Sections 2m(i) and 2m(ii) of the Factories Act, 1948.
@@ -29,6 +31,8 @@ The unincorporated sector has shown robust growth, with the number of establishm
 
 
 In this post, we break down seven key data points that illustrate these "invisible Workshops" where India's women entrepreneurs operate.
+
+---
 
 ## 1. The Invisible Workshop
 For most women in India, the "factory floor" is their own living room. A staggering **75.2%** of women entrepreneurs work from home, compared to just **27%** of men. While home-based work offers flexibility, this means businesses are small and "invisible" to formal support systems.
@@ -44,6 +48,8 @@ For most women in India, the "factory floor" is their own living room. A stagger
   </figcaption>
 </figure>
 
+---
+
 ## 2. What 'Manufacturing' Really Means
 When we talk about women in manufacturing, we are often talking about two specific industries. **59%** are in Apparel and Garments, and **15%** are in Tobacco (Beedi) rolling. This high concentration in low-margin, labor-intensive sectors highlights the lack of industrial diversification for women.
 
@@ -56,6 +62,8 @@ When we talk about women in manufacturing, we are often talking about two specif
     <strong>Figure 2:</strong> Industry composition of women-owned manufacturing enterprises
   </figcaption>
 </figure>
+
+---
 
 ## 3. The Solopreneur Trap
 Scaling a business is a monumental challenge for women. Only **3.3%** of women-owned enterprises have any hired workers. The rest are "solopreneurs" who manage everything themselves, compared to nearly triple the hiring rate for men.
@@ -71,6 +79,8 @@ Scaling a business is a monumental challenge for women. Only **3.3%** of women-o
   </figcaption>
 </figure>
 
+---
+
 ## 4. The Paper Ceiling
 Formalization remains a distant dream for many. **90%** of women-owned businesses remain unregistered, cutting them off from government schemes, formal credit, and legal protections. Men are **4.7x more likely** to have their businesses officially recognized.
 
@@ -85,6 +95,8 @@ Formalization remains a distant dream for many. **90%** of women-owned businesse
     <strong>Figure 4:</strong> Formalization composition
   </figcaption>
 </figure>
+
+---
 
 ## 5. The Sisterhood Effect
 One of the most powerful findings in the data is the "Sisterhood Effect." When women *do* scale and hire, they create a safe harbor for other women. Women owners hire other women at **26 times the rate** that men do—emphasizing that investing in women entrepreneurs is a direct investment in the female labor force.
@@ -102,6 +114,8 @@ One of the most powerful findings in the data is the "Sisterhood Effect." When w
 </figure>
 
 
+---
+
 ## 6. The Digital Divide
 In an increasingly digital economy, women are being left behind. **86%** of women entrepreneurs operate completely offline. Men are **2.3x more likely** to use the internet for their business, a gap that threatens to widen the economic divide as services move online.
 
@@ -117,6 +131,8 @@ In an increasingly digital economy, women are being left behind. **86%** of wome
   </figcaption>
 </figure>
 
+
+---
 
 ## 7. The Credit Gap
 Finally, the "Credit Gap" remains a significant hurdle. Only **6%** of women entrepreneurs have access to formal loans, a barrier that prevents them from buying equipment, expanding premises, or surviving economic shocks.
@@ -135,9 +151,12 @@ Finally, the "Credit Gap" remains a significant hurdle. Only **6%** of women ent
 
 
 
+---
+
 ## Conclusion
 The data from ASUSE 2023-24 tells a clear story: women entrepreneurs in India are not just "smaller" versions of male ones. They operate in different spaces (the home), different sectors (apparel/tobacco), and face unique barriers to technology and credit. 
 
 
 
----
+***
+*All datasets, R-scripts, diagnostic files, and spatial mappings used in this analysis are open-source and available in the project GitHub repository.*
