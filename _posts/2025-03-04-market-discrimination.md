@@ -2,6 +2,8 @@
 layout: post
 title: "Social Identity, Market Channels, and Agricultural Price Realization in Rural India"
 date: 2026-03-30
+
+math: true
 categories: [Agricultural Economics, NSS 77th Round, Caste Dynamics]
 ---
 
