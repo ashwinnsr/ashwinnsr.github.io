@@ -2,7 +2,6 @@
 layout: post
 title: "Social Identity, Market Channels, and Agricultural Price Realization in Rural India"
 date: 2026-03-30
-
 math: true
 categories: [Agricultural Economics, NSS 77th Round, Caste Dynamics]
 ---
@@ -40,9 +39,39 @@ This study investigates the joint role of **social identity (caste)** and **econ
 
 ---
 
-## Some Descriptive Statistics
+## 3. Analytical Strategy & Descriptive Statistics
 
-Before estimating econometric regressions, an exhaustive descriptive and non-parametric exploratory data analysis is essential for three methodological reasons. Linear regressions impose specific functional forms that can mask heavy-tailed distributions, price clustering at modal points, and localized distributional asymmetries. Non-parametric rank tests (Kruskal-Wallis, Dunn pairwise tests with Benjamini-Hochberg FDR adjustment, and Mann-Whitney rank-biserial effect sizes) provide robust baseline evidence. Furthermore, by decomposing price variance within households across multiple transactions and between households within states, we establish how much variation is structural (spatial/regional) versus transaction-specific. Finally, looking only at mean or median prices overlooks harvest-time distress sales. Disaggregating the share of transactions falling below the seasonal crop median captures asymmetric downside vulnerability.
+Before estimating econometric regressions, an exhaustive descriptive and non-parametric exploratory analysis is necessary. Linear regressions impose functional-form assumptions that can obscure heavy-tailed price distributions, focal-price clustering (e.g., at ₹15, ₹18/kg), and localised distributional asymmetries. This section documents the full analytical strategy, with explicit justifications for each test chosen.
+
+### 3.1 Justification of Inferential Methods
+
+#### (i) Kruskal-Wallis H Test — Omnibus Group Comparison
+
+Agricultural unit prices in the NSS 77th Round are right-skewed and exhibit pronounced clustering at administratively set round-number focal prices (MSP benchmarks, mandi-gate prices). Shapiro-Wilk tests confirm non-normality across caste–crop cells, and Levene's test frequently rejects homoscedasticity. Under these conditions, parametric one-way ANOVA $F$-tests yield inflated Type I error rates. The **Kruskal-Wallis H test** — a non-parametric rank-sum generalisation of the Wilcoxon test to $k > 2$ groups — tests whether the population price distributions across all caste groups are stochastically identical, without imposing any distributional family. It is the appropriate omnibus test when the data are continuous but non-normal and the groups have unequal variances.
+
+#### (ii) Dunn's Test with Benjamini-Hochberg FDR Correction — Pairwise Follow-Up
+
+A significant Kruskal-Wallis result establishes that *some* distributional difference exists across the four caste groups, but does not identify *which* pairs drive it. **Dunn's post-hoc test** resolves this by using the pooled joint ranks from the Kruskal-Wallis procedure, preserving internal consistency with the omnibus test. Multiple pairwise comparisons ($\binom{4}{2} = 6$ pairs per crop) inflate the family-wise false positive rate. Rather than applying a Bonferroni correction (which controls Family-Wise Error Rate but is excessively conservative when tests are correlated), the **Benjamini-Hochberg (BH) False Discovery Rate** procedure is used. BH is appropriate here because the six pairwise comparisons are not independent (they share group-level rank statistics), and in an exploratory descriptive analysis, the cost of missing a true difference (Type II error) is comparable to the cost of a spurious finding (Type I error).
+
+#### (iii) Mann-Whitney U & Rank-Biserial Effect Size ($r_{\text{rb}}$) — Substantive Magnitude
+
+Statistical significance alone is insufficient for economic interpretation in large samples ($N > 8{,}000$ for wheat; $N > 18{,}000$ for paddy), where even economically trivial differences achieve $p < 0.001$. The **Mann-Whitney U test** provides the two-group rank comparison, and the associated **rank-biserial correlation** $r_{\text{rb}} = 1 - \frac{2W}{n_1 n_2}$ converts the $U$ statistic into a standardised effect size on $[-1, 1]$. $r_{\text{rb}}$ can be interpreted as the net probability that a randomly drawn SC farmer receives a lower price than a randomly drawn General farmer. Following Cohen (1988) guidelines adapted for rank tests: $|r_{\text{rb}}| < 0.1$ is negligible, $0.1$–$0.3$ is small, $0.3$–$0.5$ is moderate, and $> 0.5$ is large. This allows us to distinguish between a gap that is *statistically real* and one that is *economically meaningful*.
+
+#### (iv) One-Way ANOVA — Mean-Based Complement to Rank Tests
+
+ANOVA is reported *alongside* Kruskal-Wallis rather than as an alternative. When both tests agree in direction and significance, the finding is robust to the choice of measure of central tendency and to the presence of outliers. When they diverge, this signals that the result is driven by extreme distributional asymmetry rather than a shift in the bulk of the distribution — a substantively informative disagreement. The joint reporting follows the robustness-check logic recommended by Zimmermann (2004) for applied social science work with moderately non-normal data.
+
+#### (v) Two-Way ANOVA — Caste × Landholding Interaction
+
+The literature on agrarian political economy (Jodhka, 2014; Lerche, 2011) argues that land ownership is the primary mediator of caste-based economic advantage. A **two-way ANOVA** with *caste group* and *landholding size class* as factors decomposes price variation along both dimensions simultaneously. The interaction term specifically tests whether the caste price gap is *uniform* across farm size strata or *concentrated* in specific landholding categories. A non-significant interaction implies additive separability — the caste penalty does not amplify or attenuate with farm scale — and supports treating caste and land size as independent explanatory dimensions in the subsequent regression.
+
+#### (vi) Chi-Square Test of Independence — Market Channel Access
+
+The outcome variable for market channel analysis is discrete: a household either accesses a formal channel (APMC mandi, government procurement, cooperative) or it does not. Standard regression methods for continuous prices are not applicable to this binary choice variable. The **Pearson chi-square test of independence** tests whether the distribution of households across formal versus informal channels is statistically independent of caste group membership. It is the standard non-parametric test for association in a two-way contingency table with categorical row and column variables, and its assumptions (expected cell counts $\geq 5$) are comfortably satisfied at these sample sizes.
+
+#### (vii) Below-Median Price Share — Lower-Tail Distress Risk
+
+Mean and median comparisons are symmetric measures that can mask asymmetric downside vulnerability. For smallholder households facing post-harvest liquidity constraints — needing cash to repay input loans or meet consumption shortfalls — what matters is not the average price received but the probability of receiving a *particularly low* price. Computing the **share of transactions falling below the seasonal cell-median price** isolates lower-tail concentration without parametric assumptions about the shape of the full distribution. This follows the spirit of Atkinson's (1970) poverty measurement framework applied to price distributions, and is analogous to a headcount ratio measuring "price poverty" below a locally defined threshold.
 
 ---
 
@@ -99,20 +128,20 @@ At the all-India level, raw price differences between caste categories appear mo
 
 ### 5.2. Inferential Testing & Effect Sizes: Wheat vs. Paddy Asymmetry
 
-Non-parametric hypothesis testing reveals critical nuances between crops:
+Non-parametric hypothesis testing reveals critical nuances between crops. Given confirmed non-normality and heteroscedasticity in unit price distributions (see §3.1), we proceed with rank-based tests before reporting parametric complements.
 
-1. **Overall Distributional Differences (Kruskal-Wallis Tests):**
+1. **Overall Distributional Differences (Kruskal-Wallis H Test):** *Justification: price distributions are non-normal and group variances are unequal; Kruskal-Wallis tests whether distributions are stochastically identical across all four caste groups without imposing normality (see §3.1-i).*
    * **Wheat:** $H = 97.47, p = 5.37 \times 10^{-21}$ (Statistically significant)
    * **Paddy:** $H = 205.81, p = 2.45 \times 10^{-44}$ (Statistically significant)
    * **Others:** $H = 175.78, p = 7.15 \times 10^{-38}$ (Statistically significant)
 
-2. **Dunn Pairwise Comparisons (with Benjamini-Hochberg FDR Correction):**
+2. **Dunn Pairwise Comparisons (with Benjamini-Hochberg FDR Correction):** *Justification: Kruskal-Wallis signals that some distributional difference exists but does not identify which pairs drive it; Dunn's test uses the pooled joint ranks, preserving consistency with the omnibus result; BH correction is used over Bonferroni because the six pairwise comparisons are correlated and we wish to balance Type I against Type II error in an exploratory analysis (see §3.1-ii).*
    * In **Wheat**, General caste farmers realize significantly higher prices than OBC ($Z = 9.85, p_{\text{adj}} < 0.001$) and SC farmers ($Z = 7.66, p_{\text{adj}} < 0.001$).
    * In **Paddy**, the pattern is non-linear: OBC farmers receive significantly higher prices than General farmers ($Z = -4.91, p_{\text{adj}} < 0.001$), driven by extensive OBC participation in state procurement, while the General–SC difference is marginal ($Z = 1.76, p_{\text{adj}} = 0.039$).
 
-3. **Mann-Whitney U & Rank-Biserial Effect Sizes ($r_{\text{rb}}$):**
-   * **Wheat (SC vs. General):** $W = 1{,}822{,}426, p = 5.27 \times 10^{-13}$, with a rank-biserial effect size of **$r = -0.160$ (small, adverse SC penalty)**.
-   * **Paddy (SC vs. General):** $W = 6{,}496{,}834, p = 0.079$, with an effect size of **$r = 0.026$ (negligible/near zero)**.
+3. **Mann-Whitney U & Rank-Biserial Effect Sizes ($r_{\text{rb}}$):** *Justification: with $N > 8{,}000$ observations in wheat and $N > 18{,}000$ in paddy, even economically trivial differences achieve $p < 0.001$; $r_{\text{rb}} = 1 - \frac{2W}{n_1 n_2}$ converts the U-statistic into a $[-1, 1]$ scale interpretable as the net probability of SC price disadvantage, separating statistical significance from economic magnitude (see §3.1-iii).*
+   * **Wheat (SC vs. General):** $W = 1{,}822{,}426, p = 5.27 \times 10^{-13}$, with a rank-biserial effect size of **$r = -0.160$ (small, adverse SC penalty)** — statistically unambiguous but economically modest.
+   * **Paddy (SC vs. General):** $W = 6{,}496{,}834, p = 0.079$, with an effect size of **$r = 0.026$ (negligible/near zero)** — neither statistically nor economically significant at the all-India level.
    * **State-Level Discipline:** Across 37 state-crop combinations with adequate cell sizes ($n_{\text{General}} \ge 30, n_{\text{SC}} \ge 30$), only 13 show statistically significant differences after Benjamini-Hochberg correction, confirming that caste penalties are state- and crop-specific rather than uniform nationwide.
 
 ---
@@ -128,6 +157,8 @@ A central empirical question is how social groups access different marketing int
 | **Government Procurement** | 3.8% | **4.7%** | 3.8% | 1.5% | **3.9%** |
 | **Cooperative / FPO** | 2.5% | **2.7%** | 1.6% | 2.2% | **2.4%** |
 | **Any Formal Channel (Combined)** | **18.3%** | **18.9%** | **13.4%** | **10.8%** | **17.0%** |
+
+*Justification: channel access is a discrete binary outcome (formal vs. informal); the Pearson chi-square test of independence is the appropriate non-parametric test for association in a two-way contingency table with categorical row (caste group) and column (channel type) variables; all expected cell counts exceed 5, satisfying the test's applicability conditions (see §3.1-vi).*
 
 ```
 Chi-Square Test of Independence (Caste x Formal Access):
@@ -155,7 +186,9 @@ State-level disaggregation demonstrates that national price dispersion and chann
    * **Chhattisgarh:** Decentralized primary society procurement achieves high coverage for marginalized groups ($91.9\%$ of SC paddy transactions are sold through formal procurement/cooperatives).
    * **Telangana:** Strong procurement networks support widespread formal access ($62.2\%$ for SC vs. $69.0\%$ for General).
 3. **Infrastructure-Deficient Regimes (Uniformly Depressed Access):**
-   * **Uttar Pradesh & Bihar:** Formal marketing infrastructure is universally sparse ($<8\%$ formal access across all social groups), leaving all communities#### 5.4.1. Empirical Deep Dive: Leading Rice / Paddy States (UP, Telangana, West Bengal)
+   * **Uttar Pradesh & Bihar:** Formal marketing infrastructure is universally sparse ($<8\%$ formal access across all social groups), leaving all communities dependent on informal channels.
+
+#### 5.4.1. Empirical Deep Dive: Leading Rice / Paddy States (UP, Telangana, West Bengal)
 
 Below are the transaction-level descriptive statistics, caste distribution metrics, landholding size interactions, and inferential hypothesis tests across the top paddy-producing states from [`06_state_crop_deepdive.R`](code/scripts/descriptive_stats/06_state_crop_deepdive.R):
 
@@ -203,8 +236,10 @@ Below are the transaction-level descriptive statistics, caste distribution metri
 
 ##### D. Inferential Hypothesis Tests (Paddy)
 
-* **Uttar Pradesh:** Statistically significant caste sorting is confirmed via Kruskal-Wallis ($\chi^2 = 11.015, p = 0.0116$) and One-Way ANOVA ($F = 4.019, p = 0.0073$). Two-Way ANOVA shows significant main effects for Caste ($F = 4.042, p = 0.0071$) and Land Size ($F = 6.445, p = 0.00024$), with a non-significant interaction ($F = 0.810, p = 0.594$).
-* **Telangana:** Kruskal-Wallis rank test is highly significant ($\chi^2 = 20.265, p = 0.00015$), driven by lower ST median realization (₹17.00/kg) compared to SC/OBC/General (₹17.70/kg). One-Way ANOVA is also significant ($F = 4.282, p = 0.0052$).
+*Kruskal-Wallis is the primary test because within-state price distributions remain non-normal and the group variances are heterogeneous (see §3.1-i). One-Way ANOVA is reported as a mean-based complement: concordance between the two tests strengthens confidence in the finding; divergence flags outlier-driven artefacts (see §3.1-iv). Two-Way ANOVA (Caste × Landholding) additionally tests whether the caste price gap is mediated or amplified by farm scale, with a non-significant interaction supporting additive separability (see §3.1-v).*
+
+* **Uttar Pradesh:** Statistically significant caste sorting is confirmed via Kruskal-Wallis ($\chi^2 = 11.015, p = 0.0116$) and One-Way ANOVA ($F = 4.019, p = 0.0073$) — both tests agree, making the finding robust to distributional assumptions. Two-Way ANOVA shows significant main effects for Caste ($F = 4.042, p = 0.0071$) and Land Size ($F = 6.445, p = 0.00024$), with a **non-significant interaction** ($F = 0.810, p = 0.594$) — the caste gap does not amplify with landholding size, implying the two dimensions act independently.
+* **Telangana:** Kruskal-Wallis rank test is highly significant ($\chi^2 = 20.265, p = 0.00015$), driven by lower ST median realization (₹17.00/kg) compared to SC/OBC/General (₹17.70/kg). One-Way ANOVA is also significant ($F = 4.282, p = 0.0052$), confirming the pattern is not an outlier artefact.
 * **West Bengal:** Demonstrates highly significant ST price penalty via Kruskal-Wallis ($\chi^2 = 14.457, p = 0.0023$) and One-Way ANOVA ($F = 6.628, p = 0.00019$). ST farmers average ₹13.68/kg vs. ₹14.19/kg for General and ₹14.19/kg for SC.
 
 ---
@@ -255,9 +290,11 @@ Below are the transaction-level descriptive statistics, caste distribution metri
 
 ##### D. Inferential Hypothesis Tests (Wheat)
 
-* **Uttar Pradesh:** Demonstrates highly statistically significant caste disparities via Kruskal-Wallis ($\chi^2 = 52.510, p = 2.33 \times 10^{-11}$) and One-Way ANOVA ($F = 17.120, p = 5.30 \times 10^{-11}$). General farmers average ₹17.10/kg vs. ₹16.79/kg for OBC and ₹16.58/kg for SC. Two-Way ANOVA shows significant Caste main effect ($F = 17.193, p < 0.001$) and Land Size effect ($F = 4.749, p = 0.0026$).
-* **Madhya Pradesh:** Kruskal-Wallis rank test confirms significant caste sorting ($\chi^2 = 33.388, p = 2.67 \times 10^{-7}$) and One-Way ANOVA is highly significant ($F = 7.956, p = 0.000030$), with General farmers averaging ₹17.94/kg vs. ₹17.48/kg for SC and ₹17.37/kg for ST.
-* **Punjab:** Complete price parity across social groups due to universal procurement and dense APMC mandi networks ($\text{CV} = 4.0\%$, mean ₹18.06/kg). Both Kruskal-Wallis ($\chi^2 = 5.555, p = 0.1354$) and One-Way ANOVA ($F = 2.050, p = 0.1057$) confirm that caste price differences are statistically non-significant.
+*The same testing logic applies as in the paddy deep dive: Kruskal-Wallis as the primary rank-based omnibus test, One-Way ANOVA as a mean-based robustness check, and Two-Way ANOVA to decompose caste and landholding contributions to price variance and test their interaction (see §3.1-i, iv, v). Punjab is an important falsification case: if the tests correctly detect genuine institutional differences, they should return non-significant results in a state with near-universal procurement access.*
+
+* **Uttar Pradesh:** Demonstrates highly statistically significant caste disparities via Kruskal-Wallis ($\chi^2 = 52.510, p = 2.33 \times 10^{-11}$) and One-Way ANOVA ($F = 17.120, p = 5.30 \times 10^{-11}$) — strong concordance between tests confirms robustness. General farmers average ₹17.10/kg vs. ₹16.79/kg for OBC and ₹16.58/kg for SC. Two-Way ANOVA shows significant Caste main effect ($F = 17.193, p < 0.001$) and Land Size effect ($F = 4.749, p = 0.0026$), with the interaction term non-significant — the caste gap is not mediated by farm scale.
+* **Madhya Pradesh:** Kruskal-Wallis rank test confirms significant caste sorting ($\chi^2 = 33.388, p = 2.67 \times 10^{-7}$) and One-Way ANOVA is highly significant ($F = 7.956, p = 0.000030$), with General farmers averaging ₹17.94/kg vs. ₹17.48/kg for SC and ₹17.37/kg for ST. Both tests agree in direction and significance, strengthening confidence in the finding.
+* **Punjab (Falsification):** Complete price parity across social groups due to universal procurement and dense APMC mandi networks ($\text{CV} = 4.0\%$, mean ₹18.06/kg). Both Kruskal-Wallis ($\chi^2 = 5.555, p = 0.1354$) and One-Way ANOVA ($F = 2.050, p = 0.1057$) confirm that caste price differences are statistically non-significant — this null result is *expected* and serves as an institutional falsification check, validating that our tests are sensitive to genuine market-structure differences rather than producing spurious signals.
 
 ---
 
@@ -278,6 +315,8 @@ Examining unit prices *within* specific marketing channels highlights that forma
 ---
 
 ### 5.6. Downside Price Risk: Below-Median Price Concentration
+
+*Justification: mean and median price comparisons are symmetric and can mask asymmetric downside vulnerability. For smallholder households facing post-harvest liquidity constraints — needing cash to repay input loans or meet consumption shortfalls — the relevant welfare metric is not the average price received but the probability of receiving a particularly low price. Computing the share of transactions falling below the seasonal cell-median is a distribution-free lower-tail concentration measure that isolates this tail risk without parametric assumptions, following the spirit of Atkinson's (1970) poverty measurement framework applied to price distributions (see §3.1-vii).*
 
 Evaluating the lower tail of the price distribution reveals substantial vulnerability during harvest periods:
 
